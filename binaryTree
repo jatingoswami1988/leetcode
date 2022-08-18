@@ -1,1 +1,13 @@
 Binary Tree Notes:-
+
+1)Diameter of BT is Math.max(height(root.left)+height(root.right),Math.max(diameter(root.left),diameter(root.right))
+
+Return max of following three
+          1) Diameter of left subtree
+          2) Diameter of right subtree
+          3) Height of left subtree + height of right subtree + 1
+https://www.youtube.com/watch?v=ey7DYc9OANo&t=436s
+
+2)Left and Right view  use this solution :- https://leetcode.com/problems/binary-tree-right-side-view/submissions/
+         
+         
