@@ -1,3 +1,22 @@
+Topics - 
+Array
+Matrix
+String
+Searching and Sorting
+LinkedList
+Binary Tree
+Binary Search Tree
+Greedy
+BackTracking
+Stack And Queues
+Heap
+Graphs
+DP
+BitManipulation
+Puzzles
+
+
+
 https://leetcode.com/problems/single-number/ --> Try XOR Operation method also
 
 To Revise Again - 560,556,556
@@ -17,3 +36,18 @@ System Design > https://www.codekarle.com/
 Dynamic Programming > https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp
 
 Web Crawler > https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md
+
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+Fizzbuzz problem.
+Segemented Tree
+Self Balanced Tree - AVL Tree
+Nuember Theory - Basics
+DP on Tree
+Fenwick Tree
+Expected Value Question
+SOS Dp
+Heavy Light Decomposition
+Fourier Theoram
+Skewed Tree
+segmented tree
+https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
