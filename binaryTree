@@ -1,6 +1,6 @@
 Binary Tree Notes:-
 
-1)Diameter of BT is Math.max(height(root.left)+height(root.right),Math.max(diameter(root.left),diameter(root.right))
+1)Diameter of BT is Math.max(height(root.left)+height(root.right),Math.max(diameter(root.left),diameter(root.right)) --> Viveka youtube
 
 Return max of following three
           1) Diameter of left subtree
