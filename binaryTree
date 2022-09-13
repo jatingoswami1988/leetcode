@@ -23,5 +23,7 @@ Check if Tree is BST or not -> https://www.geeksforgeeks.org/a-program-to-check-
 For each node, check if max value in left subtree is smaller than the node and min value in right subtree greater than the node. 
 
 Balanced BST = AVL or Red/Black Tree
+
+https://leetcode.com/problems/validate-binary-search-tree/submissions/ -->> Validation of BST
          
          
