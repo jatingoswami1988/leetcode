@@ -26,6 +26,7 @@ Balanced BST = AVL or Red/Black Tree
 
 https://leetcode.com/problems/validate-binary-search-tree/submissions/ -->> Validation of BST
 
-https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like --> Pair sum in BST
+https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like --> Pair sum in BST , 
+Always send a list in the parameter instead of declaring static key words.
          
          
