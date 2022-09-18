@@ -1,3 +1,4 @@
 String s = "jatin";
 s.subString(1); --> atin
 "hamburger".substring(4, 8) returns "urge"
+str.substring(left, right + 1) -> Return single character
