@@ -1,7 +1,7 @@
 
 1) String s = "jatin";
 
-2) "jatin".subString(1); --> atin
+2) "jatin".subString(1); --> atin ---> Doesnot start from 0th index.
 
 3) "hamburger".substring(4, 8) returns "urge" --> After 4th index value. It does not start from 0th index
 
