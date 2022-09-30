@@ -1,8 +1,11 @@
 
-1) String s = "jatin";
+String s = "jatin";
 
-2) "jatin".subString(1); --> atin ---> Doesnot start from 0th index.
+"jatin".subString(1); --> atin ---> Doesnot start from 0th index.
 
-3) "hamburger".substring(4, 8) returns "urge" --> After 4th index value. It does not start from 0th index
+"hamburger".substring(4, 8) returns "urge" --> After 4th index value. It does not start from 0th index
 
-4) str.substring(left, right + 1) -> Return single character
+System.out.println("jatin".substring(0)); // jatin
+System.out.println("jatin".substring(1)); // atin
+System.out.println("jatin".substring(2, 5)); // tin
+System.out.println("jatin".length()); // 5
