@@ -3,6 +3,6 @@
 
 2) "jatin".subString(1); --> atin
 
-3) "hamburger".substring(4, 8) returns "urge" --> Inclucde 4th index value
+3) "hamburger".substring(4, 8) returns "urge" --> After 4th index value. It does not start from 0th index
 
 4) str.substring(left, right + 1) -> Return single character
