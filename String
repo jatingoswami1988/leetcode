@@ -13,7 +13,7 @@ System.out.println("jatin".length()); // 5
 ######################################################
 For example :- 
 int count[] = new int[255]; // keep he count 2,0,1,4 etc
-
+// int count[] = new int[26]; //We can use length of array 26 >>>> 'Z' - 'A' >> 25    
 for (int i = 0; i < str2.length(); i++) {
 		count[str2.charAt(i)]++;
 }
