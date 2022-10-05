@@ -15,6 +15,13 @@ DP
 BitManipulation
 Puzzles
 
+Logic -
+
+Array - Two Pointer,Sliding Window,PriorityQueue,TempArray
+PriorityQueue
+Custom Class
+
+
 
 
 https://leetcode.com/problems/single-number/ --> Try XOR Operation method also
