@@ -26,3 +26,4 @@ for (int i = 0; i < str1.length(); i++) {
 		}
 }
 #####################################################
+Anagram -> Same character but order may be diff.
