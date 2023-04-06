@@ -33,5 +33,6 @@ https://leetcode.com/problems/univalued-binary-tree/submissions/ >> Solution is 
 
 Check if a given Binary Tree is a Heap - It should be a complete tree (i.e. all levels except the last should be full).
                                          Every node’s value should be greater than or equal to its child node (considering max-heap).
+two balanced binary search trees e.g., AVL or Red-Black Tree                                         
          
          
