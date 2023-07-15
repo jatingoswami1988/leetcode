@@ -84,3 +84,111 @@ https://leetcode.com/discuss/interview-question/2001789/collections-of-important
 HLD and LLD
 
 Distributed Caching and MessagingQueue
+
+
+###########################
+
+Microservice Pattern
+
+
+
+𝟏. 𝐁𝐚𝐜𝐤𝐞𝐧𝐝𝐬 𝐟𝐨𝐫 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝𝐬 𝐏𝐚𝐭𝐭𝐞𝐫𝐧 (𝐁𝐅𝐅): Tailored backend for each user interface.
+𝟐. 𝐒𝐭𝐫𝐚𝐧𝐠𝐥𝐞𝐫 𝐅𝐢𝐠 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Gradual replacement of monolithic systems.
+𝟑. 𝐀𝐏𝐈 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Single-entry point to microservices system.
+𝟒. 𝐒𝐞𝐫𝐯𝐢𝐜𝐞 𝐃𝐢𝐬𝐜𝐨𝐯𝐞𝐫𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Locate services dynamically in a network.
+𝟓. 𝐂𝐢𝐫𝐜𝐮𝐢𝐭 𝐁𝐫𝐞𝐚𝐤𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Prevent cascaded failure, enable recovery.
+𝟔. 𝐁𝐮𝐥𝐤𝐡𝐞𝐚𝐝 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Isolate failures and prevent system-wide impact.
+𝟕. 𝐑𝐞𝐭𝐫𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Reattempt operation in case of failure.
+𝟖. 𝐒𝐢𝐝𝐞𝐜𝐚𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Application extension with helper services.
+𝟗. 𝐒𝐚𝐠𝐚 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Maintain data consistency across microservices.
+𝟏𝟎. 𝐂𝐐𝐑𝐒 (𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐐𝐮𝐞𝐫𝐲 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐒𝐞𝐠𝐫𝐞𝐠𝐚𝐭𝐢𝐨𝐧) 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Separate read and write operations.
+𝟏𝟏. 𝐂𝐨𝐦𝐩𝐨𝐬𝐢𝐭𝐞 𝐌𝐢𝐜𝐫𝐨𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Orchestrates multiple services, aggregates results.
+𝟏𝟐. 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐄𝐱𝐭𝐞𝐫𝐧𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Externalize configurations for environmental consistency.
+
+
+
+###########################
+
+
+Make Sure these all problems and their concepts, logic, Pattern Everything is on your Fingertip before the Interview 🎯
+
+🔴 Part 1: DP on 1D Array
+
+DP 1. Phebonachi Number
+DP 2. Climbing Stairs 
+DP 3. Frog Jump 
+DP 4. Frog Jump with K Distance 
+DP 5. Maximum Sum of Non-Adjacent Elements House Robber
+DP 6. House Robber 2
+
+🔴 Part 2: 2D/3D DP and DP on Grids
+
+DP 7. Ninja's Training
+DP 8. Grid Unique Paths
+DP 9. Unique Paths 2
+DP 10. Minimum Path Sum in Grid
+DP 11. Triangle Fixed Starting Point and Variable Ending Point DP on GRIDS
+DP 12. Minimum Maximum Falling Path Sum Variable Starting and Ending Points DP on Grids
+DP 13. Cherry Pickup II 3D DP
+
+🔴 Part 3: DP on Subsequences
+
+DP 14. Subset Sum Equals to Target
+DP 15. Partition Equal Subset Sum
+Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference
+DP 17. Counts Subsets with Sum K
+DP 18. Count Partitions With Given Difference
+DP 19. 0/1 Knapsack Single Array
+DP 20. Minimum Coins
+DP 21. Target Sum DP on Subsequences
+DP 22. Coin Change 2 infinite Supply Problems DP on Subsequences
+DP 23. Unbounded Knapsack 1-D Array
+DP 24. Rod Cutting Problem 1D Array
+
+🔴 Part 4: DP on Strings
+
+DP 25 Longest Common Subsequence
+DP 26. Print_Longest_Common_Subsequence
+DP 27._Longest_Common_Substring
+DP 28._Longest_Palindromic_Subseque
+DP 29._Minimum_Insertions_to_Make_String_Palindrome
+DP 30._Minimum_Insertions_Deletions_to_Convert_String_A_to_String_B
+DP 31._Shortest_Common_Supersequence
+DP 32. Distinct_Subsequences_1D_Array
+DP 33 Edit_Distance
+DP 34._Wildcard_Matching
+
+🔴 Part 5: DP on Stocks
+
+DP 34._Wildcard_Matching
+DP 35._Best_Time_to_Buy_and_Sell_Stock
+DP 36._Buy_and_Sell_Stock_II
+DP 37._Buy_and_Sell_Stocks_III
+DP 38. Buy and Stock Sell IV
+DP 39. Buy and Sell Stocks With Cooldown
+DP 40. Buy and Sell Stocks With Transaction Fee
+
+🔴 Part 6: DP on LIS ( Longest Increasing Subsequence )
+
+DP 41. Longest Increasing Subsequence
+DP 42. Printing Longest Increasing Subsequence
+DP 43. Longest Increasing Subsequence
+DP 44. Largest Divisible Subset Longest Increasing Subsequence
+DP 45. Longest String Chain Longest Increasing Subsequence LIS
+DP 46. Longest Bitonic Subsequence LIS
+DP 47. Number of Longest Increasing Subsequences
+
+🔴 Part 7: MCM (Matrix Chain Multiplication) DP | Partition DP
+
+DP 48. Matrix Chain Multiplication MCM Partition 🔥
+DP 49. Matrix Chain Multiplication
+DP 50. Minimum Cost to Cut the Stick
+DP 51. Burst Balloons Partition DP Interactive G-Meet Session Update
+DP 52. Evaluate Boolean Expression to True Partition DP
+DP 53. Palindrome Partitioning - II Front Partition 🔥
+DP 54. Partition Array for Maximum Sum Front Partition 🔥
+
+🔴 Part 8: DP on Squares
+
+DP 55. Maximum Rectangle Area with all 1's
+DP 56. Count Square Submatrices with All Ones🔥
