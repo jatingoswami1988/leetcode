@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Problem_698PartitionToKEqualSumSubsets {
-	public static boolean result = true;
-
 	public static void main(String[] args) {
 
-		int arr[] = { 9, 5, 9, 5 };
+		int arr[] = { 9, 5, 9, 4 };
 		int k = 3;
 		int[] subSetSum = new int[k];
 		List<List<Integer>> ans = new ArrayList<>();
@@ -17,48 +15,44 @@ public class Problem_698PartitionToKEqualSumSubsets {
 			ans.add(new ArrayList<>());
 		}
 
-		System.out.println(solution(arr, 0, subSetSum, 0, ans, k, false));
+		solution(arr, 0, subSetSum, 0, ans, k);
 
 	}
 
-	private static boolean solution(int[] arr, int index, int[] subSetSum, int tempSum, List<List<Integer>> ans, int k,
-			boolean flag) {
+	private static void solution(int[] arr, int index, int[] subSetSum, int tempSum, List<List<Integer>> ans, int k) {
 		if (arr.length == index) {
 			if (tempSum == k) {
-				 boolean flag1 = true;
+				boolean flag = true;
 				for (int i = 0; i < subSetSum.length - 1; i++) {
 					if (subSetSum[i] != subSetSum[i + 1]) {
-						flag1 = true;
-						// return false;
+						flag = false;
 						break;
 					}
 				}
-				if (flag1) {
+				if (flag) {
 					for (List<Integer> partition : ans) {
-						System.out.println(partition + " ");
+						System.out.print(partition + " ");
 					}
 				}
 			}
-			return flag;
+			return;
 		} else {
 			for (int i = 0; i < ans.size(); i++) {
 				if (ans.get(i).size() > 0) {
 					ans.get(i).add(arr[index]);
 					subSetSum[i] += arr[index];
-					solution(arr, index + 1, subSetSum, tempSum, ans, k, flag);
+					solution(arr, index + 1, subSetSum, tempSum, ans, k);
 					subSetSum[i] -= arr[index];
 					ans.get(i).remove(ans.get(i).size() - 1);
 				} else {
 					ans.get(i).add(arr[i]);
 					subSetSum[i] += arr[index];
-					solution(arr, index + 1, subSetSum, tempSum + 1, ans, k, flag);
+					solution(arr, index + 1, subSetSum, tempSum + 1, ans, k);
 					subSetSum[i] -= arr[index];
 					ans.get(i).remove(ans.get(i).size() - 1);
 					break;
 				}
 			}
 		}
-
-		return flag;
 	}
 }
