@@ -11,6 +11,10 @@ public class Problem_152_MaximumProductSubarray {
 		System.out.println(maxPro(arr));
 	}
 
+	//// Striver solution
+	////https://www.youtube.com/watch?v=hnswaLJvr6g
+	//// prefix suffix logic
+	
 	private static int maxPro(int[] arr) {
 		int ans = 0;
 
