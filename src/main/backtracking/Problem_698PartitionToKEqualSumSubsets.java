@@ -6,8 +6,8 @@ import java.util.List;
 public class Problem_698PartitionToKEqualSumSubsets {
 	public static void main(String[] args) {
 
-		int arr[] = { 9, 5, 9, 4 };
-		int k = 3;
+		int arr[] = { 1, 5, 11, 5 };
+		int k = 2;
 		int[] subSetSum = new int[k];
 		List<List<Integer>> ans = new ArrayList<>();
 
@@ -36,22 +36,21 @@ public class Problem_698PartitionToKEqualSumSubsets {
 				}
 			}
 			return;
-		} else {
-			for (int i = 0; i < ans.size(); i++) {
-				if (ans.get(i).size() > 0) {
-					ans.get(i).add(arr[index]);
-					subSetSum[i] += arr[index];
-					solution(arr, index + 1, subSetSum, tempSum, ans, k);
-					subSetSum[i] -= arr[index];
-					ans.get(i).remove(ans.get(i).size() - 1);
-				} else {
-					ans.get(i).add(arr[i]);
-					subSetSum[i] += arr[index];
-					solution(arr, index + 1, subSetSum, tempSum + 1, ans, k);
-					subSetSum[i] -= arr[index];
-					ans.get(i).remove(ans.get(i).size() - 1);
-					break;
-				}
+		}
+		for (int i = 0; i < ans.size(); i++) {
+			if (ans.get(i).size() > 0) {
+				ans.get(i).add(arr[index]);
+				subSetSum[i] += arr[index];
+				solution(arr, index + 1, subSetSum, tempSum, ans, k);
+				subSetSum[i] -= arr[index];
+				ans.get(i).remove(ans.get(i).size() - 1);
+			} else {
+				ans.get(i).add(arr[i]);
+				subSetSum[i] += arr[index];
+				solution(arr, index + 1, subSetSum, tempSum + 1, ans, k);
+				subSetSum[i] -= arr[index];
+				ans.get(i).remove(ans.get(i).size() - 1);
+				break;
 			}
 		}
 	}

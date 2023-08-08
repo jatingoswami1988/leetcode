@@ -6,7 +6,7 @@ public class Problem_1011_CapacityToShipPackagesWithinDDays {
 
 		int weights[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		int days = 5;
-
+		
 		int maxCapacity = 0, minCapacity = 0;
 
 		for (int i : weights) {
@@ -14,14 +14,11 @@ public class Problem_1011_CapacityToShipPackagesWithinDDays {
 			minCapacity = Math.max(minCapacity, i);
 		}
 
-		while (minCapacity <= maxCapacity) {
-
-			int minDays = getMinDays(weights, minCapacity);
+		for (int i = minCapacity; i < maxCapacity; i++) {
+			int minDays = getMinDays(weights, i);
 			if (minDays <= days) {
-				System.out.println("Required answer " + minDays);
+				System.out.println("Required answer " + i);
 				break;
-			} else {
-				minCapacity++;
 			}
 		}
 
@@ -35,7 +32,7 @@ public class Problem_1011_CapacityToShipPackagesWithinDDays {
 			load = load + weights[i];
 			if (load > minCapacity) {
 				day++;
-				load = 0;
+				load = weights[i];
 			}
 		}
 		return day;

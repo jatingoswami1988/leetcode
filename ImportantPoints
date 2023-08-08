@@ -117,8 +117,9 @@ https://lnkd.in/d2ZxbtRw
 
 ###########################
 
-
-Make Sure these all problems and their concepts, logic, Pattern Everything is on your Fingertip before the Interview 🎯
+https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-programming-Problems-Category-wise
+https://leetcode.com/discuss/study-guide/1308617/Dynamic-Programming-Patterns
+Make Sure these all problems and their concepts, logic, Pattern Everything is on your Fingertip before the Interview.
 
 🔴 Part 1: DP on 1D Array
 
@@ -141,13 +142,13 @@ DP 13. Cherry Pickup II 3D DP
 
 🔴 Part 3: DP on Subsequences
 
-DP 14. Subset Sum Equals to Target
-DP 15. Partition Equal Subset Sum
-Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference
-DP 17. Counts Subsets with Sum K
-DP 18. Count Partitions With Given Difference
+DP 14. Subset Sum Equals to Target - Done
+DP 15. Partition Equal Subset Sum - Done
+Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference - (Tug of war problem)
+DP 17. Counts Subsets with Sum K - (coin change problem)
+DP 18. Count Partitions With Given Difference 
 DP 19. 0/1 Knapsack Single Array
-DP 20. Minimum Coins
+DP 20. Minimum Coins ---> Combinational Sum problem 
 DP 21. Target Sum DP on Subsequences
 DP 22. Coin Change 2 infinite Supply Problems DP on Subsequences
 DP 23. Unbounded Knapsack 1-D Array
@@ -155,10 +156,10 @@ DP 24. Rod Cutting Problem 1D Array
 
 🔴 Part 4: DP on Strings
 
-DP 25 Longest Common Subsequence
-DP 26. Print_Longest_Common_Subsequence
-DP 27._Longest_Common_Substring
-DP 28._Longest_Palindromic_Subseque
+DP 25 Longest Common Subsequence - done
+DP 26. Print_Longest_Common_Subsequence - done
+DP 27._Longest_Common_Substring - done
+DP 28._Longest_Palindromic_Subseque - done
 DP 29._Minimum_Insertions_to_Make_String_Palindrome
 DP 30._Minimum_Insertions_Deletions_to_Convert_String_A_to_String_B
 DP 31._Shortest_Common_Supersequence
@@ -178,9 +179,8 @@ DP 40. Buy and Sell Stocks With Transaction Fee
 
 🔴 Part 6: DP on LIS ( Longest Increasing Subsequence )
 
-DP 41. Longest Increasing Subsequence
-DP 42. Printing Longest Increasing Subsequence
-DP 43. Longest Increasing Subsequence
+DP 41. Longest Increasing Subsequence - done
+DP 42. Printing Longest Increasing Subsequence - done
 DP 44. Largest Divisible Subset Longest Increasing Subsequence
 DP 45. Longest String Chain Longest Increasing Subsequence LIS
 DP 46. Longest Bitonic Subsequence LIS
