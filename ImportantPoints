@@ -131,14 +131,21 @@ https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-programm
 https://leetcode.com/discuss/study-guide/1308617/Dynamic-Programming-Patterns
 Make Sure these all problems and their concepts, logic, Pattern Everything is on your Fingertip before the Interview.
 
+//// count no of ways or best way | min output or max output - Recursion.
+/// Represent the problem in terms of index
+/// do possible stuffs in that index
+/// count no of ways  - Sum all stuffs
+/// min - find min of all stuffs
+/// max - find max of all stuffs
+
 🔴 Part 1: DP on 1D Array
 
 DP 1. Phebonachi Number
 DP 2. Climbing Stairs 
 DP 3. Frog Jump 
 DP 4. Frog Jump with K Distance 
-DP 5. Maximum Sum of Non-Adjacent Elements House Robber
-DP 6. House Robber 2
+DP 5. Maximum Sum of Non-Adjacent Elements House Robber - done
+DP 6. House Robber 2 - done
 
 🔴 Part 2: 2D/3D DP and DP on Grids
 
