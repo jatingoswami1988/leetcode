@@ -60,23 +60,6 @@ https://leetcode.com/problems/rearrange-array-elements-by-sign/description/
 
 #######################
 
-Datastructures - AVL Tree
-
-https://leetcode.com/tag/dynamic-programming/discuss/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months.
-
-System Design > https://workat.tech/system-design/article/best-engineering-blogs-articles-videos-system-design-tvwa05b8bzzr
-
-System design > https://leetcode.com/discuss/interview-question/124660/design-an-Elevator
-
-LRU cache with Thread safe > https://github.com/kswap/LRU-Cache
-
-System Design > https://www.codekarle.com/
-
-Dynamic Programming > https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp
-
-Web Crawler > https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md
-
-https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
 Fizzbuzz problem.
 Segemented Tree
 Self Balanced Tree - AVL Tree
@@ -106,13 +89,19 @@ https://leetcode.com/discuss/interview-question/2001789/collections-of-important
 HLD and LLD
 
 Distributed Caching and MessagingQueue
+https://leetcode.com/tag/dynamic-programming/discuss/1000929/Solved-all-dynamic-programming-(dp)-problems-in-7-months.
+Netflix System Design > https://workat.tech/system-design/article/best-engineering-blogs-articles-videos-system-design-tvwa05b8bzzr
+Elevator System design > https://leetcode.com/discuss/interview-question/124660/design-an-Elevator
+LRU cache with Thread safe > https://github.com/kswap/LRU-Cache
+System Design > https://www.codekarle.com/
+Dynamic Programming - https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp
+Web Crawler - https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
 
 
 ###########################
 
 Microservice Pattern
-
-
 
 𝟏. 𝐁𝐚𝐜𝐤𝐞𝐧𝐝𝐬 𝐟𝐨𝐫 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝𝐬 𝐏𝐚𝐭𝐭𝐞𝐫𝐧 (𝐁𝐅𝐅): Tailored backend for each user interface.
 𝟐. 𝐒𝐭𝐫𝐚𝐧𝐠𝐥𝐞𝐫 𝐅𝐢𝐠 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Gradual replacement of monolithic systems.
@@ -215,8 +204,8 @@ DP 47. Number of Longest Increasing Subsequences
 
 🔴 Part 7: MCM (Matrix Chain Multiplication) DP | Partition DP
 
-DP 48. Matrix Chain Multiplication MCM Partition 🔥
-DP 49. Matrix Chain Multiplication
+DP 48. Matrix Chain Multiplication MCM Partition - Done
+DP 49. Matrix Chain Multiplication - Done
 DP 50. Minimum Cost to Cut the Stick
 DP 51. Burst Balloons Partition DP Interactive G-Meet Session Update
 DP 52. Evaluate Boolean Expression to True Partition DP
