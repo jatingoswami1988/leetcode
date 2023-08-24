@@ -7,33 +7,6 @@ To Read again -
 
 https://github.com/keshavsethi/LLD/blob/main/BookMyShow/BMSService.java
 
-System Design > https://workat.tech/system-design/article/best-engineering-blogs-articles-videos-system-design-tvwa05b8bzzr
-
-System design > https://leetcode.com/discuss/interview-question/124660/design-an-Elevator
-
-LRU cache with Thread safe > https://github.com/kswap/LRU-Cache
-
-System Design > https://www.codekarle.com/
-
-Dynamic Programming > https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp
-
-Web Crawler > https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md
-
-
-Topics - 
-Array
-Matrix
-String
-Searching and Sorting
-LinkedList
-Binary Tree
-Binary Search Tree
-Greedy
-BackTracking
-Stack And Queues
-Heap
-Graphs
-DP
 BitManipulation
 Puzzles
 
@@ -93,15 +66,17 @@ https://leetcode.com/discuss/interview-question/2001789/collections-of-important
 HLD and LLD
 
 Distributed Caching and MessagingQueue
-
 Netflix System Design > https://workat.tech/system-design/article/best-engineering-blogs-articles-videos-system-design-tvwa05b8bzzr
 Elevator System design > https://leetcode.com/discuss/interview-question/124660/design-an-Elevator
 LRU cache with Thread safe > https://github.com/kswap/LRU-Cache
-System Design > https://www.codekarle.com/
-
+https://www.codekarle.com/
 Web Crawler - https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
-
+https://workat.tech/system-design/article/best-engineering-blogs-articles-videos-system-design-tvwa05b8bzzr
+https://leetcode.com/discuss/interview-question/124660/design-an-Elevator
+LRU cache with Thread safe > https://github.com/kswap/LRU-Cache
+System Design > https://www.codekarle.com/
+Web Crawler > https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md
 
 ###########################
 
@@ -157,8 +132,8 @@ DP 7. Ninja's Training -
 DP 8. Grid Unique Paths - Done
 DP 9. Unique Paths 2 - Done
 DP 10. Minimum Path Sum in Grid - Done
-DP 11. Triangle Fixed Starting Point and Variable Ending Point DP on GRIDS - Done
-DP 12. Minimum Maximum Falling Path Sum ( Variable Starting and Ending Points DP on Grids) - Gold mine problem - All path
+DP 11. Triangle Fixed Starting Point and Variable Ending Point DP on GRIDS- Done
+DP 12. Minimum Maximum Falling Path Sum Variable Starting and Ending Points DP on Grids
 DP 13. Cherry Pickup II 3D DP
 
 🔴 Part 3: DP on Subsequences
@@ -224,124 +199,65 @@ DP 56. Count Square Submatrices with All Ones - Done
 ###########################
 
 👉System design basics: https://bit.ly/3SuUR0Y
-
 👉Horizontal and vertical scaling: https://bit.ly/3slq5xh
-
 👉 Load balancing and Message queues: https://bit.ly/3sp0FP4
-
 👉High-level design and low-level design, Consistent Hashing, Monolithic and Microservices architecture: https://bit.ly/3DnEfEm
-
 👉 Caching, Indexing, Proxies: https://bit.ly/3SvyVDc
-
 👉 Networking, How Browsers work, Content Network Delivery ( CDN): https://bit.ly/3TOHQRb
-
 👉 Database Sharding, CAP Theorem, Database schema Design: https://bit.ly/3CZtfLN
-
 👉 Concurrency, API, Components + OOP + Abstraction : https://bit.ly/3sqQrhj
-
 👉 Estimation and Planning, Performance: https://bit.ly/3z9dSPN
-
 👉 Map Reduce, Patterns, and Microservices: https://bit.ly/3zcsfmv
-
 👉 SQL vs NoSQL and Cloud: https://bit.ly/3z8Aa49
-
 👉 Most Popular System Design Questions: https://bit.ly/3Dp40Ux
-
 ✅ System Design Case Studies
-
 👉 Design Netflix: https://bit.ly/3GrAUG1
-
 👉 Design Reddit: https://bit.ly/3OgGJrL
-
 👉 Design Messenger App : https://bit.ly/3DoAAXi
-
 👉 Design Instagram: https://bit.ly/3BFeHlh
-
 👉 Design Dropbox: https://bit.ly/3SnhncU
-
 👉 Design Youtube: https://bit.ly/3dFyvvy
-
 👉 Design Tinder: https://bit.ly/3Mcyj3X
-
 👉 Design Yelp: https://bit.ly/3E7IgO5
-
 👉 Design Whatsapp: https://bit.ly/3M2GOhP
-
 👉 Design URL shortener : https://bit.ly/3xP078x
-
 👉 Design Amazon Prime Video: https://bit.ly/3hVpWP4
-
 👉 Design Twitter: https://bit.ly/3qIG9Ih
-
 👉 Design Uber: https://bit.ly/3fyvnlT
-
 👉 Design TikTok : https://bit.ly/3UUlKxP
-
 👉 Design Facebook's Newsfeed: https://bit.ly/3RldaW7
-
 👉 Design Web Crawler: https://bit.ly/3DPZTBB
-
 👉 Design API Rate Limiter: https://bit.ly/3BIVuh7
-
 ✅ All solved case studies: https://bit.ly/3dCG1rc
-
 👉 System Design Important terms - https://bit.ly/3Om9d3H
-
 👉 Most Popular System Design Questions: https://bit.ly/3E9oH7K
-
 👉 Complete System Design Basics Series: https://bit.ly/3rG1cfr
-
 
 #################################################################
 
 25 concepts that make System Design easier:
-
 1. Scalability - How will your system handle growth? Vertical or Horizontal scaling?
-
 2. Latency and Throughput - Essential performance measures.
-
 3. Database design - SQL or NoSQL? Understand their strengths and weaknesses.
-
 4. Indexing - Understand database indexes and their performance implications.
-
 5. Load Balancing - Understand different algorithms and their use cases.
-
 6. Caching - Caching can dramatically increase the speed of data retrieval. Know different strategies, benefits and trade-offs.
-
 7. Networking Basics - TCP/IP, HTTP vs HTTPS, UDP, DNS lookups.
-
 8. Microservices Architecture - Learn how to decompose a large system into manageable parts.
-
 9. Data Sharding - As your data grows, how will you distribute it?Understand different sharding techniques and their trade-offs.
-
 10. CAP Theorem - Consistency, Availability, and Partition Tolerance - you can only pick two.
-
 11. System Interfaces - API design and best practices.
-
 12. Redundancy and Failover - Learn how to design a highly available system.
-
 13. Message Queues - Asynchronous communication, ensuring reliable data transfer.
-
 14. Data Replication - Storing duplicate data across multiple machines to increase reliability and availability.
-
 15. Concurrency - Handling multiple requests simultaneously.
-
 16. Multithreading - The art of handling multiple threads and synchronization.
-
 17. Rate Limiting - Controlling request rates, why, and how.
-
 18. Consensus Algorithms - Get familiar with Raft, Paxos, and more.
-
 19. Idempotency - Repeated requests should yield the same result.
-
 20. REST vs RPC - When and why to use them.
-
 21. Polling vs Push mechanism - Differences and their appropriate usage.
-
 22. Heartbeats - Regular signals sent between machines to indicate network connectivity and system health.
-
 23. Eventual vs Strong Consistency - Trade-offs and use cases.
-
 24. Logging and Monitoring - Their significance in maintaining a healthy system.
-
 25. Circuit Breakers - Learn how they can prevent system failures.
