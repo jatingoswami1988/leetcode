@@ -4,7 +4,9 @@ public class Problem_42_TrappingRainWater {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 1,8,6,2,5,4,8,3,7};
+		// int arr[] = { 1,8,6,2,5,4,8,3,7};
+
+		int arr[] = { 3, 0, 2, 0, 4 };
 
 		int left[] = new int[arr.length];
 

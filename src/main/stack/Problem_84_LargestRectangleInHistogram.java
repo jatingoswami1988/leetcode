@@ -3,6 +3,7 @@ package main.stack;
 import java.util.Stack;
 //https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-using-stack/
 ///https://www.youtube.com/watch?v=tOylVCugy9k
+//https://www.youtube.com/watch?v=jC_cWLy7jSI
 public class Problem_84_LargestRectangleInHistogram {
 	static int getMaxArea(int hist[], int n) {
 		Stack<Integer> s = new Stack<>();
