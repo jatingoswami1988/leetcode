@@ -1,4 +1,4 @@
-To Read again
+To Read it again
 // Read Overlapping problem and Recursion technique in takeUForward
 // Time complexity in each example of striver
 // in recursion if min is required then -> return Math.min( , );
@@ -77,7 +77,13 @@ https://leetcode.com/discuss/interview-question/124660/design-an-Elevator
 LRU cache with Thread safe > https://github.com/kswap/LRU-Cache
 System Design > https://www.codekarle.com/
 Web Crawler > https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md
-
+System Design : Distributed Database System Key Value Store - https://www.youtube.com/watch?v=rnZmdmlR-2M
+DistributedCache - https://www.youtube.com/watch?v=fowDzrMa-Mo
+                   https://ravisystemdesign.substack.com/p/interview-prep-designing-a-distributed
+                   https://www.youtube.com/watch?v=iuqZvajTOyA
+                   https://datamify.com/spring/distributed-cache-in-spring-boot-application-with-redis/
+https://github.com/keshavsethi/LLD
+https://medium.com/@narengowda/bookmyshow-system-design-e268fefb56f5
 ###########################
 
 Microservice Pattern
