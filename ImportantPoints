@@ -1,4 +1,3 @@
-To Read it again
 // Read Overlapping problem and Recursion technique in takeUForward
 // Time complexity in each example of striver
 // in recursion if min is required then -> return Math.min( , );
@@ -65,6 +64,8 @@ https://leetcode.com/discuss/interview-question/2001789/collections-of-important
 
 HLD and LLD
 
+https://astikanand.github.io/techblogs/high-level-system-design/design-bookmyshow
+
 Distributed Caching and MessagingQueue
 Netflix System Design > https://workat.tech/system-design/article/best-engineering-blogs-articles-videos-system-design-tvwa05b8bzzr
 Elevator System design > https://leetcode.com/discuss/interview-question/124660/design-an-Elevator
@@ -84,6 +85,9 @@ DistributedCache - https://www.youtube.com/watch?v=fowDzrMa-Mo
                    https://datamify.com/spring/distributed-cache-in-spring-boot-application-with-redis/
 https://github.com/keshavsethi/LLD
 https://medium.com/@narengowda/bookmyshow-system-design-e268fefb56f5
+
+Thread safe - LRU make lru thread safe in java
+
 ###########################
 
 Microservice Pattern
@@ -109,6 +113,9 @@ https://lnkd.in/d_uWUggG
 
 Famous 75 Questions of Leetcode
 https://lnkd.in/d2ZxbtRw
+
+Tree - https://leetcode.com/discuss/study-guide/1337373/tree-question-pattern-2021-placement
+	   https://leetcode.com/discuss/study-guide/1212004/Binary-Trees-study-guide
 
 ###########################
 
@@ -267,3 +274,319 @@ DP 56. Count Square Submatrices with All Ones - Done
 23. Eventual vs Strong Consistency - Trade-offs and use cases.
 24. Logging and Monitoring - Their significance in maintaining a healthy system.
 25. Circuit Breakers - Learn how they can prevent system failures.
+
+#############################################################
+
+✏️ 1. Course Schedule: https://lnkd.in/dx3hUnJ8
+✏️ 2. Number of Islands: https://lnkd.in/dEk_NYPh
+✏️ 3. Clone Graph: https://lnkd.in/d5RZS5AW
+✏️ 4. Word Ladder: https://lnkd.in/dg8DvnDb
+✏️ 5. Pacific Atlantic Water Flow: https://lnkd.in/d_F5gWRD
+✏️ 6. Cheapest Flights Within K Stops: https://lnkd.in/dxq3PspT
+✏️ 7. Network Delay Time: https://lnkd.in/dNE2x2w8
+✏️ 8. All Paths from Source Lead to Destination: https://lnkd.in/dmQYvrqR
+✏️ 9. Redundant Connection: https://lnkd.in/d9cVv-Tk
+✏️ 10. Minimum Height Trees: https://lnkd.in/dycY2kqr
+✏️ 11. Evaluate Division: https://lnkd.in/dqBnAMRz
+✏️ 12. Graph Valid Tree: https://lnkd.in/djaqHMWA
+✏️ 13. Find Eventual Safe States: https://lnkd.in/dAe6wVTa
+✏️ 14. Shortest Path in Binary Matrix: https://lnkd.in/df24-eQT
+✏️ 15. Reconstruct Itinerary: https://lnkd.in/dWiAf63S
+✏️ 16. Find the City With the Smallest Number of Neighbors at a Threshold Distance: https://lnkd.in/dMFFHpGn
+✏️ 17. Find the Town Judge: https://lnkd.in/dRzk_nfX
+✏️ 18. Critical Connections in a Network: https://lnkd.in/dTTJ88Ke
+✏️ 19. Number of Operations to Make Network Connected: ]https://lnkd.in/dNqX7B6W
+✏️ 20. Path with Maximum Probability: https://lnkd.in/d22u-WDU
+✏️ 21. Find the Shortest Superstring: https://lnkd.in/d64Qz7fc
+✏️ 22. Minimum Cost to Connect Two Groups of Points: https://lnkd.in/ds_5Ay4N
+✏️ 23. Number of Ways to Reorder Array to Get Same BST: https://lnkd.in/diaRmGJi
+✏️ 24. Path with Minimum Effort: https://lnkd.in/dFmZGxBW
+✏️ 25. Count Subtrees With Max Distance Between Cities: https://lnkd.in/d2ErWV5c
+
+#############################################################
+
+Two Sum problem : https://lnkd.in/d8z9YqhN
+🔰 Trapping Water : https://lnkd.in/d63FvNtv
+🔰 Next Permutation : https://lnkd.in/dstQYJzv
+🔰 Valid Palindrome : https://lnkd.in/dxqJkdKe
+🔰 Reverse String : https://lnkd.in/dVqnrj_n
+🔰 Reverse Vowels of a String : https://lnkd.in/dZF3Khb9
+🔰 Valid Palindrome II : https://lnkd.in/dcyRTzcY
+🔰 Reverse Only Letters : https://lnkd.in/dZF3Khb9
+🔰 Remove Element : https://lnkd.in/dMX6VUta
+🔰 Sort Colors : https://lnkd.in/dMrd47Eu
+🔰 Flipping an Image : https://lnkd.in/d8fHeViF
+🔰 Squares of a Sorted Array : https://lnkd.in/djqgw998
+🔰 Sort Array By Parity : https://lnkd.in/dxd8qjau
+🔰 Sort Array By Parity II : https://lnkd.in/dBEndarU
+🔰 Pancake Sorting : https://lnkd.in/d9tgnG9c
+🔰 Reverse Prefix of Word : https://lnkd.in/dEQxMYJW
+🔰 Reverse String II : https://lnkd.in/dyAFikRg
+🔰 Reverse Words in a String : https://lnkd.in/d_DA9jcN
+🔰 Reverse Words in a String III : https://lnkd.in/dA6P_PpZ
+🔰 3Sum problem : https://lnkd.in/dzNdzt6H
+🔰 3Sum Closest : https://lnkd.in/defwUKwg
+🔰 Remove Duplicates from Sorted Array : https://lnkd.in/dyfazJgR
+🔰 Remove Element : https://lnkd.in/dMX6VUta
+🔰 Container With Most Water : https://lnkd.in/dVmRBP3C
+🔰 Minimum Size Subarray Sum : https://lnkd.in/dmD6SC3n
+
+################################################################
+Here are Top 50 problems that most improved my DSA and problem solving skills:
+
+1. Furthest Building You Can Reach: https://lnkd.in/gup4SjT3
+
+2. Maximum Points You Can Obtain from Cards: https://lnkd.in/g46uuRRY
+
+3. Trim a Binary Search Tree: https://lnkd.in/ggZjxhfB
+
+4. Car Pooling: https://lnkd.in/gHYDuBB3
+
+5. Two Sum: https://lnkd.in/gvmrSsPf
+
+6. Container With Most Water: https://lnkd.in/g3wzbAdt
+
+7. Distribute Coins in Binary Tree: https://lnkd.in/gB5jwdYP
+
+8. Merge Two Sorted Lists: https://lnkd.in/gWiNc4iT
+
+9. Merge k Sorted Lists: https://lnkd.in/gC7XdcYn
+
+10. Group Anagrams: https://lnkd.in/g2ZvQCMt
+
+11. Merge Intervals: https://lnkd.in/gj7mKaC7
+
+12. Rotting Oranges: https://lnkd.in/gQPtGtBE
+
+13. Diameter of Binary Tree: https://lnkd.in/gpgf_bxQ
+
+14. Top K Frequent Elements: https://lnkd.in/gQ7YbpyG
+
+15. Sliding Window Maximum: https://lnkd.in/gPxyzZte
+
+16. Number of Islands: https://lnkd.in/g4SuhAKZ
+
+17. Linked List Cycle II: https://lnkd.in/gvgpiPeb
+
+18. Jump Game II: https://lnkd.in/gi2e6HwH
+
+19. Maximum Subarray: https://lnkd.in/gvXACXww
+
+20. Longest Increasing Path in a Matrix: https://lnkd.in/g832N7kP
+
+21. Trapping Rain Water: https://lnkd.in/gyj3KRzF
+
+22. Reverse Linked List: https://lnkd.in/gFdtXjpp
+
+23. Course Schedule II: https://lnkd.in/g-zYyETQ
+
+24. Sort Colors: https://lnkd.in/gkdR3wW8
+
+25. Implement Trie (Prefix Tree): https://lnkd.in/gAH5a-7M
+
+26. Move Zeroes: https://lnkd.in/g-zKby4V
+
+27. Daily Temperatures: https://lnkd.in/gEDjGxz8
+
+28. Insert Delete GetRandom O(1): https://lnkd.in/gCNhaage
+
+29. Longest Increasing Subsequence: https://lnkd.in/gQa8vA23
+
+30. Populate Next Right Pointers In Each Node II: https://lnkd.in/g_NM2kcb
+
+31. Binary Tree Maximum Path Sum: https://lnkd.in/gsQNe33B
+
+32. Longest Substring Without Repeating Characters: https://lnkd.in/gGUhV_Cm
+
+33. Combination Sum: https://lnkd.in/gE3rVnJi
+
+34. Unique Binary Search Trees II: https://lnkd.in/g8n6wZvP
+
+35. First Bad Version: https://lnkd.in/gm4NqwNY
+
+36. Word Search II: https://lnkd.in/geXH9tc3
+
+37. Task Scheduler: https://lnkd.in/g2JF77Fs
+
+38. Bus Routes: https://lnkd.in/gdXVMMVp
+
+39. Reconstruct Itinerary: https://lnkd.in/ga2KSv4h
+
+40. Maximum Profit in Job Scheduling: https://lnkd.in/gb_qP8vA
+
+41. Cheapest Flights Within K Stops: https://lnkd.in/grHsBbR6
+
+42. Stock Price Fluctuation: https://lnkd.in/g4yuZgQF
+
+43. Subarray Sum Equals K: https://lnkd.in/gbxm_NXC
+
+44. Delete Nodes And Return Forest: https://lnkd.in/g6Xx3uc7
+
+45. Coin Change II: https://lnkd.in/gYhka_-y
+
+46. Clone Graph: https://lnkd.in/gMqAMeSv
+
+47. Rotate Image: https://lnkd.in/gBny5AMK
+
+48. Convert Sorted Array to Binary Search Tree: https://lnkd.in/gT7tm5fJ
+
+49. Process Tasks Using Servers: https://lnkd.in/gMYbjGWB
+
+50. Min Stack: https://lnkd.in/gPCwDHiT
+
+#######################################################################
+
+✨💡 𝗧𝗼𝗽 𝟮𝟱 𝗚𝗿𝗲𝗲𝗱𝘆 𝗣𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗶𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄!
+
+🔰 1. Container With Most Water : https://lnkd.in/dG9rhcjm
+
+🔰 2. Wildcard Matching : https://lnkd.in/drHqJ4nB
+
+🔰 3. Jump Game II : https://lnkd.in/dgJUeCCU
+
+🔰 4. Jump Game : https://lnkd.in/dQv3_csV
+
+🔰 5. Best Time to Buy and Sell Stock II : https://lnkd.in/d4Qka-G9
+
+🔰 6. Gas Station : https://lnkd.in/d94cqhqc
+
+🔰 7. Candy : https://lnkd.in/d_hh4z8i
+
+🔰 8. Largest Number : https://lnkd.in/dcV264Jh
+
+🔰 9. Meeting Rooms II : https://lnkd.in/dsb4AcxQ
+
+🔰 10. Find the Celebrity : https://lnkd.in/dy643udY
+
+🔰 11. Wiggle Sort : https://lnkd.in/dAAP5KfE
+
+🔰 12. Remove Duplicate Letters : https://lnkd.in/djVh9SkE
+
+🔰 13. Create Maximum Number : https://lnkd.in/dr_EjH6c
+
+🔰 14. Patching Array : https://lnkd.in/dJHJp4hx
+
+🔰 15. Increasing Triplet Subsequence : https://lnkd.in/dTp3hfrk
+
+🔰 16. Rearrange String k Distance Apart : https://lnkd.in/dMbHn47t
+
+🔰 17. Wiggle Subsequence : https://lnkd.in/d8Jbpuwg
+
+🔰 18. Integer Replacement : https://lnkd.in/daaF7c4Z
+
+🔰 19. Remove K Digits : https://lnkd.in/dVz2vix7
+
+🔰 20. Queue Reconstruction by Height : https://lnkd.in/dVArqsw5
+
+🔰 21. Longest Palindrome : https://lnkd.in/dEfwccGX
+
+🔰 22. Split Array Largest Sum : https://lnkd.in/dwCA-A59
+
+🔰 23. Strong Password Checker : https://lnkd.in/dfwtNC-E
+
+🔰 24. Non-overlapping Intervals : https://lnkd.in/d-82nneU
+
+🔰 25. Minimum Number of Arrows to Burst Balloons : https://lnkd.in/di6-Z9yK
+
+############################################################################
+1) 𝐒𝐢𝐧𝐠𝐥𝐞𝐭𝐨𝐧 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need a single instance of a class that's globally accessible.
+
+Example -> Database connections: Ensures only one connection throughout the app's life.
+
+2) 𝐁𝐮𝐢𝐥𝐝𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need to construct complex objects step by step.
+
+Example -> Meal Builder: Create a builder for building customized meals with appetizers, main courses, sides, and desserts.
+
+3) 𝐀𝐝𝐚𝐩𝐭𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need to make an interface of one class compatible with another class.
+
+Example -> Payment Gateway Integration: Adapt various payment gateways (PayPal, Stripe, Square) to a common interface for processing transactions.
+
+4) 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 𝐌𝐞𝐭𝐡𝐨𝐝 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to create objects but leave the exact type to be determined by the subclasses.
+
+Example -> Notification Services: Create a factory method to produce notifications (email, SMS, push notifications) depending on the audience and content.
+
+5) 𝐏𝐫𝐨𝐭𝐨𝐭𝐲𝐩𝐞 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to create new objects by copying an existing object, known as the prototype.
+
+Example -> Game Character Cloning: Duplicate game characters with different attributes.
+
+6) 𝐃𝐞𝐜𝐨𝐫𝐚𝐭𝐨𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to add new functionalities to an object dynamically without altering its structure.
+
+Example -> Text Formatting: Add formatting like bold, italic, and underline to text.
+
+7) 𝐎𝐛𝐬𝐞𝐫𝐯𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need one-to-many dependency between objects, so when one object changes state, its dependents are notified and updated automatically.
+
+Example -> Weather Station: Broadcast weather changes to various devices.
+
+8) 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to define a family of algorithms, encapsulate each one, and make them interchangeable.
+
+Example -> Sorting Algorithms: Swap sorting strategies (quicksort, mergesort) at runtime.
+
+9) 𝐂𝐨𝐦𝐩𝐨𝐬𝐢𝐭𝐞 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to compose objects into tree structures to represent part-whole hierarchies.
+
+Example -> Hierarchical menu: Organization’s structure.
+
+10) 𝐅𝐚𝐜𝐚𝐝𝐞 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to make your system easy to use by providing a simplified interface to a set of interfaces in a subsystem.
+
+Example -> Home Automation: Control smart devices (lights, thermostats) through one interface.
+
+###############################################################################
+
+Add Binary
+Diameter of Binarytree
+Valid anagram
+Binary Search
+Longest Pallindrome
+Lowest Common Ancester of a binary Search tree
+Flood fill
+Balance BT
+Linked List Cycle
+First bad version
+Perumation - Given arr of distinct integer, return all possible permuations 
+Merge Interval
+Container with most water
+Kth Smallest Element in a BST
+K CLosest Points to Origin
+Longest Substring without Repeating Character
+3 Sum
+BT level order traversal
+STring to integer(atoi)
+Spiral matrix
+Course schedule
+Trie
+Clone Graph
+Evaluate Reverse Polish Notation
+Find median from data stream
+Word ladder
+Basic Calculator
+Mx profit job scheduling
+Merge K srted Llist
+Largest Rectangle in Histogram
+
+
+#######################################################################################
+
+𝟏𝟐 𝐦𝐮𝐬𝐭 𝐤𝐧𝐨𝐰 𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞+ 𝐥𝐢𝐧𝐤𝐬:
+
+1- Sliding Window - https://lnkd.in/g46KCQFt and https://lnkd.in/gUv-V5CF
+
+2- Backtracking: https://lnkd.in/gAUFSjuJ
+
+3- Greedy Algorithm: https://lnkd.in/g5TH7mhj
+
+4- Binary Search - https://lnkd.in/gdtFr6KU and https://lnkd.in/g8U5cDbZ
+
+5- UMPIRE Interview Strategy - https://lnkd.in/gugBCQV8
+
+6- Trie - https://lnkd.in/ghUxvn2z
+
+7- Dynamic Programming - https://lnkd.in/gKduCryi
+
+8- Two Pointers - https://lnkd.in/guN_NZ-x
+
+9- Coding Patterns - https://lnkd.in/gWnUKwu2 and https://lnkd.in/gYqhrH6f
+
+10- Island Pattern - https://lnkd.in/gb-k2dhW
+
+11- Interval Merge: https://lnkd.in/gtSsv3dA
+
+12- System Design Template and Strategy: https://lnkd.in/gheCSgZ9 and https://lnkd.in/gYZKYGJN
