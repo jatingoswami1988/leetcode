@@ -7,7 +7,7 @@ public class Porblem_131PalindromePartitioning {
 
 	public static void main(String[] args) {
 
-		String s = "aa";
+		String s = "nitin";
 		partition(s);
 	}
 

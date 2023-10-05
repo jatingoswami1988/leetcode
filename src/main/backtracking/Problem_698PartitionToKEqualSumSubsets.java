@@ -6,7 +6,7 @@ import java.util.List;
 public class Problem_698PartitionToKEqualSumSubsets {
 	public static void main(String[] args) {
 
-		int arr[] = { 1, 5, 11, 5 };
+		int arr[] = { 5, 5, 1, 11 };
 		int k = 2;
 		int[] subSetSum = new int[k];
 		List<List<Integer>> ans = new ArrayList<>();
@@ -45,7 +45,7 @@ public class Problem_698PartitionToKEqualSumSubsets {
 				subSetSum[i] -= arr[index];
 				ans.get(i).remove(ans.get(i).size() - 1);
 			} else {
-				ans.get(i).add(arr[i]);
+				ans.get(i).add(arr[index]);
 				subSetSum[i] += arr[index];
 				solution(arr, index + 1, subSetSum, tempSum + 1, ans, k);
 				subSetSum[i] -= arr[index];
