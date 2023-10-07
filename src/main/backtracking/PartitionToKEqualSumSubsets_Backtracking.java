@@ -6,7 +6,7 @@ public class PartitionToKEqualSumSubsets_Backtracking {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 2, 2 };
+		int arr[] = { 1,5,11,5 };
 		int k = 2;
 		System.out.println(canPartitionKSubsets(arr, k));
 

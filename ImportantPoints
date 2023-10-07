@@ -4,6 +4,10 @@
 // in recursion if max is required then -> return Math.max( , );
 // in recursion total count is required then -> return f(i,j) + f(i,j) -> depending upon the question.
 
+
+/// Try all ways and find min or max - Recursion
+/// Express in terms of index i,j
+
 https://github.com/keshavsethi/LLD/blob/main/BookMyShow/BMSService.java
 
 BitManipulation
@@ -92,18 +96,18 @@ Thread safe - LRU make lru thread safe in java
 
 Microservice Pattern
 
-𝟏. 𝐁𝐚𝐜𝐤𝐞𝐧𝐝𝐬 𝐟𝐨𝐫 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝𝐬 𝐏𝐚𝐭𝐭𝐞𝐫𝐧 (𝐁𝐅𝐅): Tailored backend for each user interface.
-𝟐. 𝐒𝐭𝐫𝐚𝐧𝐠𝐥𝐞𝐫 𝐅𝐢𝐠 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Gradual replacement of monolithic systems.
-𝟑. 𝐀𝐏𝐈 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Single-entry point to microservices system.
-𝟒. 𝐒𝐞𝐫𝐯𝐢𝐜𝐞 𝐃𝐢𝐬𝐜𝐨𝐯𝐞𝐫𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Locate services dynamically in a network.
-𝟓. 𝐂𝐢𝐫𝐜𝐮𝐢𝐭 𝐁𝐫𝐞𝐚𝐤𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Prevent cascaded failure, enable recovery.
-𝟔. 𝐁𝐮𝐥𝐤𝐡𝐞𝐚𝐝 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Isolate failures and prevent system-wide impact.
-𝟕. 𝐑𝐞𝐭𝐫𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Reattempt operation in case of failure.
-𝟖. 𝐒𝐢𝐝𝐞𝐜𝐚𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Application extension with helper services.
-𝟗. 𝐒𝐚𝐠𝐚 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Maintain data consistency across microservices.
-𝟏𝟎. 𝐂𝐐𝐑𝐒 (𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐐𝐮𝐞𝐫𝐲 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐒𝐞𝐠𝐫𝐞𝐠𝐚𝐭𝐢𝐨𝐧) 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Separate read and write operations.
-𝟏𝟏. 𝐂𝐨𝐦𝐩𝐨𝐬𝐢𝐭𝐞 𝐌𝐢𝐜𝐫𝐨𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Orchestrates multiple services, aggregates results.
-𝟏𝟐. 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐄𝐱𝐭𝐞𝐫𝐧𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: Externalize configurations for environmental consistency.
+ Tailored backend for each user interface.
+ Gradual replacement of monolithic systems.
+ Single-entry point to microservices system.
+ Locate services dynamically in a network.
+ Prevent cascaded failure, enable recovery.
+Isolate failures and prevent system-wide impact.
+ Reattempt operation in case of failure.
+ Application extension with helper services.
+ Maintain data consistency across microservices.
+Separate read and write operations.
+ Orchestrates multiple services, aggregates results.
+ Externalize configurations for environmental consistency.
 
 
 ############################
@@ -130,7 +134,7 @@ Make Sure these all problems and their concepts, logic, Pattern Everything is on
 /// min - find min of all stuffs
 /// max - find max of all stuffs
 
-🔴 Part 1: DP on 1D Array
+ Part 1: DP on 1D Array
 
 DP 1. Phebonachi Number
 DP 2. Climbing Stairs 
@@ -139,7 +143,7 @@ DP 4. Frog Jump with K Distance
 DP 5. Maximum Sum of Non-Adjacent Elements House Robber - done
 DP 6. House Robber 2 - done
 
-🔴 Part 2: 2D/3D DP and DP on Grids
+ Part 2: 2D/3D DP and DP on Grids
 
 DP 7. Ninja's Training - 
 DP 8. Grid Unique Paths - Done
@@ -149,21 +153,21 @@ DP 11. Triangle Fixed Starting Point and Variable Ending Point DP on GRIDS- Done
 DP 12. Minimum Maximum Falling Path Sum Variable Starting and Ending Points DP on Grids
 DP 13. Cherry Pickup II 3D DP
 
-🔴 Part 3: DP on Subsequences
+ Part 3: DP on Subsequences
 
 DP 14. Subset Sum Equals to Target - Done
-DP 15. Partition Equal Subset Sum - Done
-Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference - (Tug of war problem)
-DP 17. Counts Subsets with Sum K - (coin change problem)
+DP 15. Partition Equal Subset Sum - Done (Pick and dont pick logic with half sum) 
+Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference - (Tug of war problem) - + Recursion Another way done +  DP pending (https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/)
+DP 17. Counts Subsets with Sum K - (coin change problem) - 
 DP 18. Count Partitions With Given Difference 
 DP 19. 0/1 Knapsack Single Array
 DP 20. Minimum Coins ---> Combinational Sum problem 
 DP 21. Target Sum DP on Subsequences
-DP 22. Coin Change 2 infinite Supply Problems DP on Subsequences
+DP 22. Coin Change 2 infinite Supply Problems DP on Subsequences - Combinatory Problem
 DP 23. Unbounded Knapsack 1-D Array
-DP 24. Rod Cutting Problem 1D Array
+DP 24. Rod Cutting Problem 1D Array - Unbound Knapsack - Read Leetcode solution
 
-🔴 Part 4: DP on Strings
+ Part 4: DP on Strings
 
 DP 25 Longest Common Subsequence - Done
 DP 26. Print_Longest_Common_Subsequence - Done
@@ -174,18 +178,18 @@ DP 30._Minimum_Insertions_Deletions_to_Convert_String_A_to_String_B - Done
 DP 31._Shortest_Common_Supersequence
 DP 32. Distinct_Subsequences_1D_Array - Done
 DP 33 Edit_Distance - Done
-DP 34._Wildcard_Matching
+DP 34._Wildcard_Matching - Done
 
-🔴 Part 5: DP on Stocks
+Part 5: DP on Stocks
 
-DP 35._Best_Time_to_Buy_and_Sell_Stock -done
+DP 35._Best_Time_to_Buy_and_Sell_Stock - done
 DP 36._Buy_and_Sell_Stock_II-done
 DP 37._Buy_and_Sell_Stocks_III-done
 DP 38. Buy and Stock Sell IV
 DP 39. Buy and Sell Stocks With Cooldown-done
 DP 40. Buy and Sell Stocks With Transaction Fee-done
 
-🔴 Part 6: DP on LIS ( Longest Increasing Subsequence )
+Part 6: DP on LIS ( Longest Increasing Subsequence )
 
 DP 41. Longest Increasing Subsequence - done
 DP 42. Printing Longest Increasing Subsequence - done
@@ -194,57 +198,57 @@ DP 45. Longest String Chain Longest Increasing Subsequence LIS
 DP 46. Longest Bitonic Subsequence LIS
 DP 47. Number of Longest Increasing Subsequences
 
-🔴 Part 7: MCM (Matrix Chain Multiplication) DP | Partition DP
+Part 7: MCM (Matrix Chain Multiplication) DP | Partition DP
 
 DP 48. Matrix Chain Multiplication MCM Partition - Done
 DP 49. Matrix Chain Multiplication - Done
 DP 50. Minimum Cost to Cut the Stick - Done
 DP 51. Burst Balloons Partition DP Interactive G-Meet Session Update
 DP 52. Evaluate Boolean Expression to True Partition DP
-DP 53. Palindrome Partitioning - II Front Partition 🔥
-DP 54. Partition Array for Maximum Sum Front Partition 🔥
+DP 53. Palindrome Partitioning - II Front Partition 
+DP 54. Partition Array for Maximum Sum Front Partition 
 
-🔴 Part 8: DP on Squares
+Part 8: DP on Squares
 
 DP 55. Maximum Rectangle Area with all 1's - Done
 DP 56. Count Square Submatrices with All Ones - Done
 
 ###########################
 
-👉System design basics: https://bit.ly/3SuUR0Y
-👉Horizontal and vertical scaling: https://bit.ly/3slq5xh
-👉 Load balancing and Message queues: https://bit.ly/3sp0FP4
-👉High-level design and low-level design, Consistent Hashing, Monolithic and Microservices architecture: https://bit.ly/3DnEfEm
-👉 Caching, Indexing, Proxies: https://bit.ly/3SvyVDc
-👉 Networking, How Browsers work, Content Network Delivery ( CDN): https://bit.ly/3TOHQRb
-👉 Database Sharding, CAP Theorem, Database schema Design: https://bit.ly/3CZtfLN
-👉 Concurrency, API, Components + OOP + Abstraction : https://bit.ly/3sqQrhj
-👉 Estimation and Planning, Performance: https://bit.ly/3z9dSPN
-👉 Map Reduce, Patterns, and Microservices: https://bit.ly/3zcsfmv
-👉 SQL vs NoSQL and Cloud: https://bit.ly/3z8Aa49
-👉 Most Popular System Design Questions: https://bit.ly/3Dp40Ux
-✅ System Design Case Studies
-👉 Design Netflix: https://bit.ly/3GrAUG1
-👉 Design Reddit: https://bit.ly/3OgGJrL
-👉 Design Messenger App : https://bit.ly/3DoAAXi
-👉 Design Instagram: https://bit.ly/3BFeHlh
-👉 Design Dropbox: https://bit.ly/3SnhncU
-👉 Design Youtube: https://bit.ly/3dFyvvy
-👉 Design Tinder: https://bit.ly/3Mcyj3X
-👉 Design Yelp: https://bit.ly/3E7IgO5
-👉 Design Whatsapp: https://bit.ly/3M2GOhP
-👉 Design URL shortener : https://bit.ly/3xP078x
-👉 Design Amazon Prime Video: https://bit.ly/3hVpWP4
-👉 Design Twitter: https://bit.ly/3qIG9Ih
-👉 Design Uber: https://bit.ly/3fyvnlT
-👉 Design TikTok : https://bit.ly/3UUlKxP
-👉 Design Facebook's Newsfeed: https://bit.ly/3RldaW7
-👉 Design Web Crawler: https://bit.ly/3DPZTBB
-👉 Design API Rate Limiter: https://bit.ly/3BIVuh7
-✅ All solved case studies: https://bit.ly/3dCG1rc
-👉 System Design Important terms - https://bit.ly/3Om9d3H
-👉 Most Popular System Design Questions: https://bit.ly/3E9oH7K
-👉 Complete System Design Basics Series: https://bit.ly/3rG1cfr
+System design basics: https://bit.ly/3SuUR0Y
+Horizontal and vertical scaling: https://bit.ly/3slq5xh
+ Load balancing and Message queues: https://bit.ly/3sp0FP4
+High-level design and low-level design, Consistent Hashing, Monolithic and Microservices architecture: https://bit.ly/3DnEfEm
+ Caching, Indexing, Proxies: https://bit.ly/3SvyVDc
+ Networking, How Browsers work, Content Network Delivery ( CDN): https://bit.ly/3TOHQRb
+ Database Sharding, CAP Theorem, Database schema Design: https://bit.ly/3CZtfLN
+ Concurrency, API, Components + OOP + Abstraction : https://bit.ly/3sqQrhj
+ Estimation and Planning, Performance: https://bit.ly/3z9dSPN
+ Map Reduce, Patterns, and Microservices: https://bit.ly/3zcsfmv
+ SQL vs NoSQL and Cloud: https://bit.ly/3z8Aa49
+ Most Popular System Design Questions: https://bit.ly/3Dp40Ux
+System Design Case Studies
+ Design Netflix: https://bit.ly/3GrAUG1
+ Design Reddit: https://bit.ly/3OgGJrL
+ Design Messenger App : https://bit.ly/3DoAAXi
+ Design Instagram: https://bit.ly/3BFeHlh
+ Design Dropbox: https://bit.ly/3SnhncU
+ Design Youtube: https://bit.ly/3dFyvvy
+ Design Tinder: https://bit.ly/3Mcyj3X
+ Design Yelp: https://bit.ly/3E7IgO5
+ Design Whatsapp: https://bit.ly/3M2GOhP
+ Design URL shortener : https://bit.ly/3xP078x
+ Design Amazon Prime Video: https://bit.ly/3hVpWP4
+ Design Twitter: https://bit.ly/3qIG9Ih
+ Design Uber: https://bit.ly/3fyvnlT
+ Design TikTok : https://bit.ly/3UUlKxP
+ Design Facebook's Newsfeed: https://bit.ly/3RldaW7
+ Design Web Crawler: https://bit.ly/3DPZTBB
+ Design API Rate Limiter: https://bit.ly/3BIVuh7
+All solved case studies: https://bit.ly/3dCG1rc
+ System Design Important terms - https://bit.ly/3Om9d3H
+ Most Popular System Design Questions: https://bit.ly/3E9oH7K
+ Complete System Design Basics Series: https://bit.ly/3rG1cfr
 
 #################################################################
 
@@ -277,59 +281,59 @@ DP 56. Count Square Submatrices with All Ones - Done
 
 #############################################################
 
-✏️ 1. Course Schedule: https://lnkd.in/dx3hUnJ8
-✏️ 2. Number of Islands: https://lnkd.in/dEk_NYPh
-✏️ 3. Clone Graph: https://lnkd.in/d5RZS5AW
-✏️ 4. Word Ladder: https://lnkd.in/dg8DvnDb
-✏️ 5. Pacific Atlantic Water Flow: https://lnkd.in/d_F5gWRD
-✏️ 6. Cheapest Flights Within K Stops: https://lnkd.in/dxq3PspT
-✏️ 7. Network Delay Time: https://lnkd.in/dNE2x2w8
-✏️ 8. All Paths from Source Lead to Destination: https://lnkd.in/dmQYvrqR
-✏️ 9. Redundant Connection: https://lnkd.in/d9cVv-Tk
-✏️ 10. Minimum Height Trees: https://lnkd.in/dycY2kqr
-✏️ 11. Evaluate Division: https://lnkd.in/dqBnAMRz
-✏️ 12. Graph Valid Tree: https://lnkd.in/djaqHMWA
-✏️ 13. Find Eventual Safe States: https://lnkd.in/dAe6wVTa
-✏️ 14. Shortest Path in Binary Matrix: https://lnkd.in/df24-eQT
-✏️ 15. Reconstruct Itinerary: https://lnkd.in/dWiAf63S
-✏️ 16. Find the City With the Smallest Number of Neighbors at a Threshold Distance: https://lnkd.in/dMFFHpGn
-✏️ 17. Find the Town Judge: https://lnkd.in/dRzk_nfX
-✏️ 18. Critical Connections in a Network: https://lnkd.in/dTTJ88Ke
-✏️ 19. Number of Operations to Make Network Connected: ]https://lnkd.in/dNqX7B6W
-✏️ 20. Path with Maximum Probability: https://lnkd.in/d22u-WDU
-✏️ 21. Find the Shortest Superstring: https://lnkd.in/d64Qz7fc
-✏️ 22. Minimum Cost to Connect Two Groups of Points: https://lnkd.in/ds_5Ay4N
-✏️ 23. Number of Ways to Reorder Array to Get Same BST: https://lnkd.in/diaRmGJi
-✏️ 24. Path with Minimum Effort: https://lnkd.in/dFmZGxBW
-✏️ 25. Count Subtrees With Max Distance Between Cities: https://lnkd.in/d2ErWV5c
+1. Course Schedule: https://lnkd.in/dx3hUnJ8
+2. Number of Islands: https://lnkd.in/dEk_NYPh
+3. Clone Graph: https://lnkd.in/d5RZS5AW
+4. Word Ladder: https://lnkd.in/dg8DvnDb
+5. Pacific Atlantic Water Flow: https://lnkd.in/d_F5gWRD
+6. Cheapest Flights Within K Stops: https://lnkd.in/dxq3PspT
+7. Network Delay Time: https://lnkd.in/dNE2x2w8
+8. All Paths from Source Lead to Destination: https://lnkd.in/dmQYvrqR
+9. Redundant Connection: https://lnkd.in/d9cVv-Tk
+10. Minimum Height Trees: https://lnkd.in/dycY2kqr
+11. Evaluate Division: https://lnkd.in/dqBnAMRz
+12. Graph Valid Tree: https://lnkd.in/djaqHMWA
+13. Find Eventual Safe States: https://lnkd.in/dAe6wVTa
+14. Shortest Path in Binary Matrix: https://lnkd.in/df24-eQT
+15. Reconstruct Itinerary: https://lnkd.in/dWiAf63S
+16. Find the City With the Smallest Number of Neighbors at a Threshold Distance: https://lnkd.in/dMFFHpGn
+17. Find the Town Judge: https://lnkd.in/dRzk_nfX
+18. Critical Connections in a Network: https://lnkd.in/dTTJ88Ke
+19. Number of Operations to Make Network Connected: ]https://lnkd.in/dNqX7B6W
+20. Path with Maximum Probability: https://lnkd.in/d22u-WDU
+21. Find the Shortest Superstring: https://lnkd.in/d64Qz7fc
+22. Minimum Cost to Connect Two Groups of Points: https://lnkd.in/ds_5Ay4N
+23. Number of Ways to Reorder Array to Get Same BST: https://lnkd.in/diaRmGJi
+24. Path with Minimum Effort: https://lnkd.in/dFmZGxBW
+25. Count Subtrees With Max Distance Between Cities: https://lnkd.in/d2ErWV5c
 
 #############################################################
 
 Two Sum problem : https://lnkd.in/d8z9YqhN
-🔰 Trapping Water : https://lnkd.in/d63FvNtv
-🔰 Next Permutation : https://lnkd.in/dstQYJzv
-🔰 Valid Palindrome : https://lnkd.in/dxqJkdKe
-🔰 Reverse String : https://lnkd.in/dVqnrj_n
-🔰 Reverse Vowels of a String : https://lnkd.in/dZF3Khb9
-🔰 Valid Palindrome II : https://lnkd.in/dcyRTzcY
-🔰 Reverse Only Letters : https://lnkd.in/dZF3Khb9
-🔰 Remove Element : https://lnkd.in/dMX6VUta
-🔰 Sort Colors : https://lnkd.in/dMrd47Eu
-🔰 Flipping an Image : https://lnkd.in/d8fHeViF
-🔰 Squares of a Sorted Array : https://lnkd.in/djqgw998
-🔰 Sort Array By Parity : https://lnkd.in/dxd8qjau
-🔰 Sort Array By Parity II : https://lnkd.in/dBEndarU
-🔰 Pancake Sorting : https://lnkd.in/d9tgnG9c
-🔰 Reverse Prefix of Word : https://lnkd.in/dEQxMYJW
-🔰 Reverse String II : https://lnkd.in/dyAFikRg
-🔰 Reverse Words in a String : https://lnkd.in/d_DA9jcN
-🔰 Reverse Words in a String III : https://lnkd.in/dA6P_PpZ
-🔰 3Sum problem : https://lnkd.in/dzNdzt6H
-🔰 3Sum Closest : https://lnkd.in/defwUKwg
-🔰 Remove Duplicates from Sorted Array : https://lnkd.in/dyfazJgR
-🔰 Remove Element : https://lnkd.in/dMX6VUta
-🔰 Container With Most Water : https://lnkd.in/dVmRBP3C
-🔰 Minimum Size Subarray Sum : https://lnkd.in/dmD6SC3n
+ Trapping Water : https://lnkd.in/d63FvNtv
+ Next Permutation : https://lnkd.in/dstQYJzv
+ Valid Palindrome : https://lnkd.in/dxqJkdKe
+ Reverse String : https://lnkd.in/dVqnrj_n
+ Reverse Vowels of a String : https://lnkd.in/dZF3Khb9
+ Valid Palindrome II : https://lnkd.in/dcyRTzcY
+ Reverse Only Letters : https://lnkd.in/dZF3Khb9
+ Remove Element : https://lnkd.in/dMX6VUta
+ Sort Colors : https://lnkd.in/dMrd47Eu
+ Flipping an Image : https://lnkd.in/d8fHeViF
+ Squares of a Sorted Array : https://lnkd.in/djqgw998
+ Sort Array By Parity : https://lnkd.in/dxd8qjau
+ Sort Array By Parity II : https://lnkd.in/dBEndarU
+ Pancake Sorting : https://lnkd.in/d9tgnG9c
+ Reverse Prefix of Word : https://lnkd.in/dEQxMYJW
+ Reverse String II : https://lnkd.in/dyAFikRg
+ Reverse Words in a String : https://lnkd.in/d_DA9jcN
+ Reverse Words in a String III : https://lnkd.in/dA6P_PpZ
+ 3Sum problem : https://lnkd.in/dzNdzt6H
+ 3Sum Closest : https://lnkd.in/defwUKwg
+ Remove Duplicates from Sorted Array : https://lnkd.in/dyfazJgR
+ Remove Element : https://lnkd.in/dMX6VUta
+ Container With Most Water : https://lnkd.in/dVmRBP3C
+ Minimum Size Subarray Sum : https://lnkd.in/dmD6SC3n
 
 ################################################################
 Here are Top 50 problems that most improved my DSA and problem solving skills:
@@ -436,96 +440,94 @@ Here are Top 50 problems that most improved my DSA and problem solving skills:
 
 #######################################################################
 
-✨💡 𝗧𝗼𝗽 𝟮𝟱 𝗚𝗿𝗲𝗲𝗱𝘆 𝗣𝗿𝗼𝗯𝗹𝗲𝗺𝘀 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗶𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄!
+1. Container With Most Water : https://lnkd.in/dG9rhcjm
 
-🔰 1. Container With Most Water : https://lnkd.in/dG9rhcjm
+2. Wildcard Matching : https://lnkd.in/drHqJ4nB
 
-🔰 2. Wildcard Matching : https://lnkd.in/drHqJ4nB
+3. Jump Game II : https://lnkd.in/dgJUeCCU
 
-🔰 3. Jump Game II : https://lnkd.in/dgJUeCCU
+4. Jump Game : https://lnkd.in/dQv3_csV
 
-🔰 4. Jump Game : https://lnkd.in/dQv3_csV
+5. Best Time to Buy and Sell Stock II : https://lnkd.in/d4Qka-G9
 
-🔰 5. Best Time to Buy and Sell Stock II : https://lnkd.in/d4Qka-G9
+6. Gas Station : https://lnkd.in/d94cqhqc
 
-🔰 6. Gas Station : https://lnkd.in/d94cqhqc
+7. Candy : https://lnkd.in/d_hh4z8i
 
-🔰 7. Candy : https://lnkd.in/d_hh4z8i
+8. Largest Number : https://lnkd.in/dcV264Jh
 
-🔰 8. Largest Number : https://lnkd.in/dcV264Jh
+9. Meeting Rooms II : https://lnkd.in/dsb4AcxQ
 
-🔰 9. Meeting Rooms II : https://lnkd.in/dsb4AcxQ
+10. Find the Celebrity : https://lnkd.in/dy643udY
 
-🔰 10. Find the Celebrity : https://lnkd.in/dy643udY
+11. Wiggle Sort : https://lnkd.in/dAAP5KfE
 
-🔰 11. Wiggle Sort : https://lnkd.in/dAAP5KfE
+12. Remove Duplicate Letters : https://lnkd.in/djVh9SkE
 
-🔰 12. Remove Duplicate Letters : https://lnkd.in/djVh9SkE
+13. Create Maximum Number : https://lnkd.in/dr_EjH6c
 
-🔰 13. Create Maximum Number : https://lnkd.in/dr_EjH6c
+14. Patching Array : https://lnkd.in/dJHJp4hx
 
-🔰 14. Patching Array : https://lnkd.in/dJHJp4hx
+15. Increasing Triplet Subsequence : https://lnkd.in/dTp3hfrk
 
-🔰 15. Increasing Triplet Subsequence : https://lnkd.in/dTp3hfrk
+16. Rearrange String k Distance Apart : https://lnkd.in/dMbHn47t
 
-🔰 16. Rearrange String k Distance Apart : https://lnkd.in/dMbHn47t
+17. Wiggle Subsequence : https://lnkd.in/d8Jbpuwg
 
-🔰 17. Wiggle Subsequence : https://lnkd.in/d8Jbpuwg
+18. Integer Replacement : https://lnkd.in/daaF7c4Z
 
-🔰 18. Integer Replacement : https://lnkd.in/daaF7c4Z
+19. Remove K Digits : https://lnkd.in/dVz2vix7
 
-🔰 19. Remove K Digits : https://lnkd.in/dVz2vix7
+20. Queue Reconstruction by Height : https://lnkd.in/dVArqsw5
 
-🔰 20. Queue Reconstruction by Height : https://lnkd.in/dVArqsw5
+21. Longest Palindrome : https://lnkd.in/dEfwccGX
 
-🔰 21. Longest Palindrome : https://lnkd.in/dEfwccGX
+22. Split Array Largest Sum : https://lnkd.in/dwCA-A59
 
-🔰 22. Split Array Largest Sum : https://lnkd.in/dwCA-A59
+23. Strong Password Checker : https://lnkd.in/dfwtNC-E
 
-🔰 23. Strong Password Checker : https://lnkd.in/dfwtNC-E
+24. Non-overlapping Intervals : https://lnkd.in/d-82nneU
 
-🔰 24. Non-overlapping Intervals : https://lnkd.in/d-82nneU
-
-🔰 25. Minimum Number of Arrows to Burst Balloons : https://lnkd.in/di6-Z9yK
+25. Minimum Number of Arrows to Burst Balloons : https://lnkd.in/di6-Z9yK
 
 ############################################################################
-1) 𝐒𝐢𝐧𝐠𝐥𝐞𝐭𝐨𝐧 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need a single instance of a class that's globally accessible.
+1) When you need a single instance of a class that's globally accessible.
 
 Example -> Database connections: Ensures only one connection throughout the app's life.
 
-2) 𝐁𝐮𝐢𝐥𝐝𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need to construct complex objects step by step.
+2)When you need to construct complex objects step by step.
 
 Example -> Meal Builder: Create a builder for building customized meals with appetizers, main courses, sides, and desserts.
 
-3) 𝐀𝐝𝐚𝐩𝐭𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need to make an interface of one class compatible with another class.
+3) When you need to make an interface of one class compatible with another class.
 
 Example -> Payment Gateway Integration: Adapt various payment gateways (PayPal, Stripe, Square) to a common interface for processing transactions.
 
-4) 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 𝐌𝐞𝐭𝐡𝐨𝐝 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to create objects but leave the exact type to be determined by the subclasses.
+4) When you want to create objects but leave the exact type to be determined by the subclasses.
 
 Example -> Notification Services: Create a factory method to produce notifications (email, SMS, push notifications) depending on the audience and content.
 
-5) 𝐏𝐫𝐨𝐭𝐨𝐭𝐲𝐩𝐞 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to create new objects by copying an existing object, known as the prototype.
+5) When you want to create new objects by copying an existing object, known as the prototype.
 
 Example -> Game Character Cloning: Duplicate game characters with different attributes.
 
-6) 𝐃𝐞𝐜𝐨𝐫𝐚𝐭𝐨𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to add new functionalities to an object dynamically without altering its structure.
+6) When you want to add new functionalities to an object dynamically without altering its structure.
 
 Example -> Text Formatting: Add formatting like bold, italic, and underline to text.
 
-7) 𝐎𝐛𝐬𝐞𝐫𝐯𝐞𝐫 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you need one-to-many dependency between objects, so when one object changes state, its dependents are notified and updated automatically.
+7) When you need one-to-many dependency between objects, so when one object changes state, its dependents are notified and updated automatically.
 
 Example -> Weather Station: Broadcast weather changes to various devices.
 
-8) 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to define a family of algorithms, encapsulate each one, and make them interchangeable.
+8) When you want to define a family of algorithms, encapsulate each one, and make them interchangeable.
 
 Example -> Sorting Algorithms: Swap sorting strategies (quicksort, mergesort) at runtime.
 
-9) 𝐂𝐨𝐦𝐩𝐨𝐬𝐢𝐭𝐞 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to compose objects into tree structures to represent part-whole hierarchies.
+9)When you want to compose objects into tree structures to represent part-whole hierarchies.
 
-Example -> Hierarchical menu: Organization’s structure.
+Example -> Hierarchical menu: Organizationâ€™s structure.
 
-10) 𝐅𝐚𝐜𝐚𝐝𝐞 𝐏𝐚𝐭𝐭𝐞𝐫𝐧: When you want to make your system easy to use by providing a simplified interface to a set of interfaces in a subsystem.
+10)When you want to make your system easy to use by providing a simplified interface to a set of interfaces in a subsystem.
 
 Example -> Home Automation: Control smart devices (lights, thermostats) through one interface.
 
@@ -564,8 +566,6 @@ Largest Rectangle in Histogram
 
 
 #######################################################################################
-
-𝟏𝟐 𝐦𝐮𝐬𝐭 𝐤𝐧𝐨𝐰 𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞+ 𝐥𝐢𝐧𝐤𝐬:
 
 1- Sliding Window - https://lnkd.in/g46KCQFt and https://lnkd.in/gUv-V5CF
 

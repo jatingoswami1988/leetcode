@@ -1,7 +1,5 @@
 package main.dp;
 
-import java.util.Arrays;
-
 //https://leetcode.com/problems/house-robber-ii/solutions/3881298/memoization-tabulation-space-optimization/
 public class HouseOfRobber_2 {
 

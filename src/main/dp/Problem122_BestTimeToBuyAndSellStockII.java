@@ -40,11 +40,11 @@ public class Problem122_BestTimeToBuyAndSellStockII {
 		long profit = 0;
 
 		if (buy == 0) {
-
+					// Take                                                       // Dont take 
 			profit = Math.max(-prices[index] + recursion(prices, index + 1, 1), 0 + recursion(prices, index + 1, 0));
 
 		} else {
-
+			        // Take                                                       // Dont take 
 			profit = Math.max(prices[index] + recursion(prices, index + 1, 0), 0 + recursion(prices, index + 1, 1));
 		}
 
