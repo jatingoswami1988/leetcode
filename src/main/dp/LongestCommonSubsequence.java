@@ -9,7 +9,6 @@ public class LongestCommonSubsequence {
 
 		System.out.println(longestCommonSubsequenceRecursion(s1, s2, s1.length(), s2.length()));
 		System.out.println(longestCommonSubsequence(s1, s2));
-
 	}
 
 	public static int longestCommonSubsequence(String text1, String text2) {
@@ -32,6 +31,30 @@ public class LongestCommonSubsequence {
 					L[i][j] = max(L[i - 1][j], L[i][j - 1]);
 			}
 		}
+		
+		
+		String res = "";
+		int i = n, j = n;
+		while (i > 0 && j > 0) {
+
+			if (L[i][j] == L[i - 1][j - 1] + 1) {
+				res = res + text1.charAt(i - 1);
+				i--;
+				j--;
+			} else if (L[i][j] == L[i - 1][j]) {
+				i--;
+			} else {
+				j--;
+			}
+		}
+
+		String reverse = "";
+		for (int k = res.length() - 1; k >= 0; k--) {
+			reverse = reverse + res.charAt(k);
+		}
+		System.out.println("String "+reverse);
+		
+		
 		return L[m][n];
 	}
 
