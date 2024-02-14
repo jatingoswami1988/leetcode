@@ -1,7 +1,7 @@
 package main.dp;
 
 //https://www.youtube.com/watch?v=sdE0A2Oxofw
-public class Problem_62UniquePaths {
+public class Problem_62UniquePaths2 {
 
 	public static void main(String[] args) {
 		int m = 3, n = 7;

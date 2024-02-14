@@ -1,3 +1,6 @@
+temp = str.substring(0, i) + str.substring(i + 1);
+https://www.youtube.com/watch?v=oiPT284NzSs - System Design Book My Show/ Flash Sale / Meeting Rooms booking / Distributed Transactions	
+
 // Read Overlapping problem and Recursion technique in takeUForward
 // Time complexity in each example of striver
 // in recursion if min is required then -> return Math.min( , );
@@ -147,9 +150,9 @@ DP 6. House Robber 2 - done
 
 DP 7. Ninja's Training - 
 DP 8. Grid Unique Paths - Done
-DP 9. Unique Paths 2 - Done
+DP 9. Unique Paths 2 and 3 - Done
 DP 10. Minimum Path Sum in Grid - Done
-DP 11. Triangle Fixed Starting Point and Variable Ending Point DP on GRIDS- Done
+DP 11. Triangle Fixed Starting Point and Variable Ending Point DP on GRIDS - Done
 DP 12. Minimum Maximum Falling Path Sum Variable Starting and Ending Points DP on Grids
 DP 13. Cherry Pickup II 3D DP
 
@@ -158,13 +161,13 @@ DP 13. Cherry Pickup II 3D DP
 DP 14. Subset Sum Equals to Target - Done
 DP 15. Partition Equal Subset Sum - Done (Pick and dont pick logic with half sum) 
 Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference - (Tug of war problem) - + Recursion Another way done +  DP pending (https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/)
-DP 17. Counts Subsets with Sum K - (coin change problem) - 
+DP 17. Counts Subsets with Sum K - (coin change problem) - // arr[] = {1, 2, 3, 3}, X = 6  All the possible subsets are {1, 2, 3}, {1, 2, 3} and {3, 3} --> ( Add pick + Dont pick )
 DP 18. Count Partitions With Given Difference 
-DP 19. 0/1 Knapsack Single Array
-DP 20. Minimum Coins ---> Combinational Sum problem 
-DP 21. Target Sum DP on Subsequences
-DP 22. Coin Change 2 infinite Supply Problems DP on Subsequences - Combinatory Problem
-DP 23. Unbounded Knapsack 1-D Array
+DP 19. 0/1 Knapsack Single Array (https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
+DP 20. Minimum Coins ---> Combinational Sum problem  https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
+DP 21. Target Sum DP on Subsequences - 1)Just return true/false or print the subset as well using recursion and dp (https://www.geeksforgeeks.org/perfect-sum-problem-print-subsets-given-sum/)
+DP 22. Coin Change 2 infinite Supply Problems DP on Subsequences - Combinatory Problem https://www.geeksforgeeks.org/coin-change-dp-7/
+DP 23. Unbounded Knapsack 1-D Array https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/
 DP 24. Rod Cutting Problem 1D Array - Unbound Knapsack - Read Leetcode solution
 
  Part 4: DP on Strings
@@ -185,17 +188,18 @@ Part 5: DP on Stocks
 DP 35._Best_Time_to_Buy_and_Sell_Stock - done
 DP 36._Buy_and_Sell_Stock_II-done
 DP 37._Buy_and_Sell_Stocks_III-done
-DP 38. Buy and Stock Sell IV
-DP 39. Buy and Sell Stocks With Cooldown-done
-DP 40. Buy and Sell Stocks With Transaction Fee-done
+DP 38. Buy and Stock Sell IV - done
+DP 39. Buy and Sell Stocks With Cooldown - done
+DP 40. Buy and Sell Stocks With Transaction Fee - done
 
 Part 6: DP on LIS ( Longest Increasing Subsequence )
 
 DP 41. Longest Increasing Subsequence - done
 DP 42. Printing Longest Increasing Subsequence - done
-DP 44. Largest Divisible Subset Longest Increasing Subsequence
-DP 45. Longest String Chain Longest Increasing Subsequence LIS
-DP 46. Longest Bitonic Subsequence LIS
+DP 44. Largest Divisible Subset Longest Increasing Subsequence ---> Same logic as LIS use divisibility factor --> Sort the array {1,4,7,8,16}
+DP 45. Longest String Chain Longest Increasing Subsequence LIS ----> Same logic if difference is one character ---> Difference of one character
+DP 46. Longest Bitonic Subsequence LIS --> Longest increasing and decreasing sequence. Just be increase or decrease as well --> 
+				LIS from originals array and reverse and add the sum - 1
 DP 47. Number of Longest Increasing Subsequences
 
 Part 7: MCM (Matrix Chain Multiplication) DP | Partition DP

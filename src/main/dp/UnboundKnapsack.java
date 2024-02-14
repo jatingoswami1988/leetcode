@@ -4,11 +4,12 @@ public class UnboundKnapsack {
 
 	public static void main(String[] args) {
 
-		int W = 100;
-		int val[] = { 10, 30, 20 };
-		int wt[] = { 5, 10, 15 };
+		int W = 8;
+		int val[] = { 10, 40, 50, 70 };
+		int wt[] = { 1, 3, 4, 5 };
 		int n = val.length;
 		System.out.println(unboundedKnapsack(W, wt, val, n - 1));
+		System.out.println(unboundedKnapsackDp(W, n, val, wt));
 
 	}
 
@@ -24,7 +25,7 @@ public class UnboundKnapsack {
 		return Math.max(take, notTake);
 	}
 
-	private static int unboundedKnapsack(int W, int n, int[] val, int[] wt) {
+	private static int unboundedKnapsackDp(int W, int n, int[] val, int[] wt) {
 		int dp[] = new int[W + 1];
 		for (int i = 0; i <= W; i++) {
 			for (int j = 0; j < n; j++) {

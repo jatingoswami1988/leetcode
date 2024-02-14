@@ -1,7 +1,7 @@
 package main.dp;
 
 import java.util.Arrays;
-
+//https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/
 public class Problem_931_MinimumMaximumFallingPathSum {
 
 	public static void main(String[] args) {
@@ -11,22 +11,22 @@ public class Problem_931_MinimumMaximumFallingPathSum {
 		int m = a.length;
 		int n = a[0].length;
 
-		for (int j = 0; j < n; j++) {
-			int temp = minRecursion(a);
-			min = Math.min(min, temp);
-		}
+		//for (int j = 0; j < n; j++) {
+	//		int temp = minRecursion(a);
+		//	min = Math.min(min, temp);
+		//}
 
 		System.out.println(min);
 	}
 
-	public int minTabulation(int[][] a) {
+	public int minTabulation(int[][] a) { // bottom up
 		int min = Integer.MAX_VALUE;
 		int m = a.length;
 		int n = a[0].length;
 		int[] dp = new int[n];
 		Arrays.fill(dp, -1);
 
-		for (int j = 0; j < n; j++) {
+		for (int j = 0; j < n; j++) { //Base Case
 			dp[j] = a[0][j];
 		}
 

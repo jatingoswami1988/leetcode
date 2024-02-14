@@ -66,17 +66,4 @@ public class Problem1547MinimumCostToCutAStick {
 		return dp[1][c];
 		
 	}
-
-	// private static int resursion(int i, int j) {
-//	if(i<j) return 0;
-	// int min = Integer.MAX_VALUE;
-	// for(int index = ) {
-	//
-	// int cost = cuts[j+1] - cuts[i-1] + resursion(i, index - 1) + recusion(index
-	// +1,j);
-	// min = Math.min(min, cost);
-	// }
-	// return min;
-	// }
-
 }

@@ -5,8 +5,9 @@ public class Problem122_BestTimeToBuyAndSellStockII {
 
 	public static void main(String[] args) {
 
-		int prices[] = { 7, 1, 5, 3, 6, 4 };
-		System.out.println(recursion(prices, 0, 0));
+		//int prices[] = { 7, 1, 5, 3, 6, 4 };
+		int prices[] = { 4,6 };
+		//System.out.println(recursion(prices, 0, 0));
 		System.out.println(tabulation(prices));
 	}
 
@@ -31,6 +32,8 @@ public class Problem122_BestTimeToBuyAndSellStockII {
 		return dp[0][0];
 	}
 
+	// if i decide to buy at 7 and sell at 5 so net profit will be Profit = (5-7) == So i am adding -7 to the profit when buy and +5 in profit while selling
+	// i always want max profit
 	private static long recursion(int[] prices, int index, int buy) {
 
 		if (index == prices.length) {

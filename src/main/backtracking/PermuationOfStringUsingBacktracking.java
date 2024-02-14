@@ -76,8 +76,7 @@ public class PermuationOfStringUsingBacktracking {
 
 	}
 
-	private static void permuationOfStringUsingBacktracking(List<String> string, List<List<String>> result,
-			List<String> tempList) {
+	private static void permuationOfStringUsingBacktracking(List<String> string, List<List<String>> result,List<String> tempList) {
 		if (tempList.size() == string.size()) {
 			result.add(new ArrayList<String>(tempList));
 		}

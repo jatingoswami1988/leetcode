@@ -13,7 +13,7 @@ public class Problem115_DistinctSubsequences {
 
 		String s = "babgbag";
 		String t = "bag";
-		System.out.println(recursion(s, t, s.length() - 1, t.length() - 1));
+		//System.out.println(recursion(s, t, s.length() - 1, t.length() - 1));
 		System.out.println(tabulation(s, t));
 
 	}
@@ -38,7 +38,7 @@ public class Problem115_DistinctSubsequences {
 
 		if (j < 0) // if all characters of s2 is matches and j is exhausted -> then return 1
 			return 1;
-		if (i < 0) // main string is exhausted
+		if (i < 0) // main string is exhausted and i am still left with b in s2
 			return 0;
 
 		if (s.charAt(i) == t.charAt(j)) {

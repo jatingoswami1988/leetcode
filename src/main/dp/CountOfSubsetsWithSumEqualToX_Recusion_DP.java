@@ -7,9 +7,9 @@ public class CountOfSubsetsWithSumEqualToX_Recusion_DP {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 1, 1, 1, 1 }, X = 1;
+		int arr[] = {1,2,3 }, X = 3;
 		List<List<Integer>> result = new ArrayList<>();
-		countOfSubsetsWithSumEqualToX(arr, arr.length, result, new ArrayList<>(), 0, X);
+		countOfSubsetsWithSumEqualToX(arr, arr.length, result, new ArrayList<>(), 0, X);//pick and Dont pick logic
 		System.out.println(result);
 	}
 

@@ -10,6 +10,7 @@ public class Problem120_Triangle {
 
 	public static void main(String[] args) {
 		
+		//triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
 		System.out.println(recursion(0, 0, null));
 
 	}

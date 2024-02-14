@@ -36,6 +36,7 @@ public class TugOfWar {
 
 	}
 
+	// Backtracking
 	private static void tugOfWar(int[] arr, int index, List<Integer> set1, List<Integer> set2, int sumSoFar1,
 			int sumSoFar2) {
 

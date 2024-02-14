@@ -5,7 +5,7 @@ public class LongestCommonSubsequence {
 	public static void main(String[] args) {
 
 		String s1 = "abcd";
-		String s2 = "bd";
+		String s2 = "db";
 
 		System.out.println(longestCommonSubsequenceRecursion(s1, s2, s1.length(), s2.length()));
 		System.out.println(longestCommonSubsequence(s1, s2));
@@ -28,7 +28,7 @@ public class LongestCommonSubsequence {
 				else if (X[i - 1] == Y[j - 1])
 					L[i][j] = L[i - 1][j - 1] + 1;
 				else
-					L[i][j] = max(L[i - 1][j], L[i][j - 1]);
+					L[i][j] = Math.max(L[i - 1][j], L[i][j - 1]);
 			}
 		}
 		
@@ -41,7 +41,7 @@ public class LongestCommonSubsequence {
 				res = res + text1.charAt(i - 1);
 				i--;
 				j--;
-			} else if (L[i][j] == L[i - 1][j]) {
+			} else if (L[i][j] == L[i][j-1]) {
 				i--;
 			} else {
 				j--;
@@ -52,7 +52,7 @@ public class LongestCommonSubsequence {
 		for (int k = res.length() - 1; k >= 0; k--) {
 			reverse = reverse + res.charAt(k);
 		}
-		System.out.println("String "+reverse);
+		System.out.println("String :- "+reverse);
 		
 		
 		return L[m][n];
@@ -64,14 +64,14 @@ public class LongestCommonSubsequence {
 		} else if (a.charAt(m - 1) == b.charAt(n - 1)) {
 			return 1 + longestCommonSubsequenceRecursion(a, b, m - 1, n - 1);
 		} else {
-			return max(longestCommonSubsequenceRecursion(a, b, m - 1, n),
+			return Math.max(longestCommonSubsequenceRecursion(a, b, m - 1, n),
 					longestCommonSubsequenceRecursion(a, b, m, n - 1));
 		}
 
 	}
 
-	private static int max(int a, int b) {
-		return (a > b) ? a : b;
-	}
+	/*
+	 * private static int max(int a, int b) { return (a > b) ? a : b; }
+	 */
 
 }

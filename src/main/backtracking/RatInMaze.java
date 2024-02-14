@@ -6,7 +6,8 @@ public class RatInMaze {
 
 	public static void main(String[] args) {
 
-		int maze[][] = { { 1, 0 }, { 1, 1 } };
+		int maze[][] = { { 1, 0 }, 
+						 { 1, 1 } };
 		N = maze.length;
 		solveMaze(maze);
 	}

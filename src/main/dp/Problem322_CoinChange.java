@@ -12,37 +12,20 @@ public class Problem322_CoinChange {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 1, 2, 5 };
+		int arr[] = { 1, 2, 5 }; // Find fewest no of coins
 		int target = 5;
 		List<List<Integer>> result = new ArrayList<>();
 		problem322CoinChangeBactracking(arr, result, new ArrayList<>(), target, 0); // Combinatory Problem
 
 		// PickAndDontPick logic
 		result = new ArrayList<>();
-		//System.out.println(pickAndDontPickLogic(arr,arr.length,target));
+		System.out.println(pickAndDontPickLogic(arr,arr.length,target));
 		//System.out.println(result);
 		System.out.println(problem322CoinChangeDPTabulation(arr, target, arr));
 		System.out.println(problem322CoinChangeDPTabulationSpaceOpimized(arr, target));
 
 	}
 	
-	public static int pickAndDontPickLogic1(int coins[], int n, int sum) {
-
-		if (sum == 0) {
-			return 1;
-		}
-
-		if (sum < 0) {
-			return 0;
-		}
-
-		if (n <= 0) {
-			return 0;
-		}
-
-		return pickAndDontPickLogic(coins, n - 1, sum) + pickAndDontPickLogic(coins, n, sum - coins[n - 1]);
-	}
-
 	public static int pickAndDontPickLogic(int coins[], int n, int sum) {
 
 		if (sum == 0) {
@@ -99,8 +82,7 @@ public class Problem322_CoinChange {
 	}
 
 	// BactTracking
-	private static void problem322CoinChangeBactracking(int[] arr, List<List<Integer>> result, List<Integer> temp,
-			int target, int index) {
+	private static void problem322CoinChangeBactracking(int[] arr, List<List<Integer>> result, List<Integer> temp, int target, int index) {
 
 		if (target == 0) {
 			result.add(new ArrayList<>(temp));
