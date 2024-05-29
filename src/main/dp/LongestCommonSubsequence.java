@@ -4,11 +4,11 @@ public class LongestCommonSubsequence {
 
 	public static void main(String[] args) {
 
-		String s1 = "abcd";
-		String s2 = "db";
+		String s1 = "a";
+		String s2 = "b";
 
 		System.out.println(longestCommonSubsequenceRecursion(s1, s2, s1.length(), s2.length()));
-		System.out.println(longestCommonSubsequence(s1, s2));
+		//System.out.println(longestCommonSubsequence(s1, s2));
 	}
 
 	public static int longestCommonSubsequence(String text1, String text2) {

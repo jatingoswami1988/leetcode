@@ -52,9 +52,10 @@ Topological Sort:
 
 Find Shortest Path (Dijkstra's/Bellman Ford) : 
 
-	https://leetcode.com/problems/network-delay-time/
+	https://leetcode.com/problems/network-delay-time/  ----> additional questions in the bottom.
 	https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
 	https://leetcode.com/problems/cheapest-flights-within-k-stops/
+	
 	
 Strongly Connected Components (SCC) / Finding Bridge and Articulation point
 	https://leetcode.com/problems/critical-connections-in-a-network/

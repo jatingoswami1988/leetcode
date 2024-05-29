@@ -8,8 +8,28 @@ public class Problem122_BestTimeToBuyAndSellStockII {
 		//int prices[] = { 7, 1, 5, 3, 6, 4 };
 		int prices[] = { 4,6 };
 		//System.out.println(recursion(prices, 0, 0));
-		System.out.println(tabulation(prices));
+		System.out.println(tabulation1(prices));
 	}
+	
+	public static int tabulation1(int[] prices) {
+		// otimization after current
+		int n = prices.length;
+		int dp[][][] = new int[n + 1][2][3];
+		// base condition
+
+		for (int index = n - 1; index >= 0; index--) {
+			for (int buy = 0; buy <= 1; buy++) {
+				for (int allowedTransactions = 1; allowedTransactions <= 2; allowedTransactions++) {
+					if (buy == 1) {
+						dp[index][buy][allowedTransactions] = Math.max(-prices[index] + dp[index + 1][0][allowedTransactions], dp[index + 1][1][allowedTransactions]);
+					} else {
+						dp[index][buy][allowedTransactions] = Math.max(prices[index] + dp[index + 1][1][allowedTransactions - 1], dp[index + 1][0][allowedTransactions]);
+					}
+				}
+			}
+		}
+		return dp[0][1][2];// depth/Row/col
+		}
 
 	private static int tabulation(int[] prices) {
 		int n = prices.length;

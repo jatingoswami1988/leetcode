@@ -144,13 +144,13 @@ DP 2. Climbing Stairs
 DP 3. Frog Jump 
 DP 4. Frog Jump with K Distance 
 DP 5. Maximum Sum of Non-Adjacent Elements House Robber - done
-DP 6. House Robber 2 - done
+DP 6. House Robber 2 - done -- Important
 
  Part 2: 2D/3D DP and DP on Grids
 
 DP 7. Ninja's Training - 
-DP 8. Grid Unique Paths - Done
-DP 9. Unique Paths 2 and 3 - Done
+DP 8. Grid Unique Paths - Done takeUForward
+DP 9. Unique Paths 2 and 3 - Done--- check again
 DP 10. Minimum Path Sum in Grid - Done
 DP 11. Triangle Fixed Starting Point and Variable Ending Point DP on GRIDS - Done
 DP 12. Minimum Maximum Falling Path Sum Variable Starting and Ending Points DP on Grids
@@ -161,11 +161,11 @@ DP 13. Cherry Pickup II 3D DP
 DP 14. Subset Sum Equals to Target - Done
 DP 15. Partition Equal Subset Sum - Done (Pick and dont pick logic with half sum) 
 Dp 16. Partition A Set Into Two Subsets With Minimum Absolute Sum Difference - (Tug of war problem) - + Recursion Another way done +  DP pending (https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/)
-DP 17. Counts Subsets with Sum K - (coin change problem) - // arr[] = {1, 2, 3, 3}, X = 6  All the possible subsets are {1, 2, 3}, {1, 2, 3} and {3, 3} --> ( Add pick + Dont pick )
-DP 18. Count Partitions With Given Difference 
+DP 17. Counts Subsets with Sum K // arr[] = {1, 2, 3, 3}, X = 6  All the possible subsets are {1, 2, 3}, {1, 2, 3} and {3, 3} --> ( Add pick + Dont pick ) - Search file practice + https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/
+DP 18. Count Partitions With Given Difference  - Check again
 DP 19. 0/1 Knapsack Single Array (https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
 DP 20. Minimum Coins ---> Combinational Sum problem  https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
-DP 21. Target Sum DP on Subsequences - 1)Just return true/false or print the subset as well using recursion and dp (https://www.geeksforgeeks.org/perfect-sum-problem-print-subsets-given-sum/)
+DP 21. Target Sum DP on Subsequences - 1)Just return true/false or print the subset as well using recursion + Backtracking and dp (https://www.geeksforgeeks.org/perfect-sum-problem-print-subsets-given-sum/)
 DP 22. Coin Change 2 infinite Supply Problems DP on Subsequences - Combinatory Problem https://www.geeksforgeeks.org/coin-change-dp-7/
 DP 23. Unbounded Knapsack 1-D Array https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/
 DP 24. Rod Cutting Problem 1D Array - Unbound Knapsack - Read Leetcode solution
@@ -175,11 +175,11 @@ DP 24. Rod Cutting Problem 1D Array - Unbound Knapsack - Read Leetcode solution
 DP 25 Longest Common Subsequence - Done
 DP 26. Print_Longest_Common_Subsequence - Done
 DP 27._Longest_Common_Substring - Done
-DP 28._Longest_Palindromic_Subseque - Done
-DP 29._Minimum_Insertions_to_Make_String_Palindrome - Done
+DP 28._Longest_Palindromic_Subseque - Done - GFG
+DP 29._Minimum_Insertions_to_Make_String_Palindrome - (N  - Length of longest common subsequence)
 DP 30._Minimum_Insertions_Deletions_to_Convert_String_A_to_String_B - Done
 DP 31._Shortest_Common_Supersequence
-DP 32. Distinct_Subsequences_1D_Array - Done
+DP 32. Distinct_Subsequences_1D_Array - Done - Pick and dont pick logic
 DP 33 Edit_Distance - Done
 DP 34._Wildcard_Matching - Done
 
@@ -200,6 +200,10 @@ DP 44. Largest Divisible Subset Longest Increasing Subsequence ---> Same logic a
 DP 45. Longest String Chain Longest Increasing Subsequence LIS ----> Same logic if difference is one character ---> Difference of one character
 DP 46. Longest Bitonic Subsequence LIS --> Longest increasing and decreasing sequence. Just be increase or decrease as well --> 
 				LIS from originals array and reverse and add the sum - 1
+				Let the input array be arr[] of length n. We need to construct two arrays lis[] and lds[] using Dynamic Programming solution of LIS problem. 
+				lis[i] stores the length of the Longest Increasing subsequence ending with arr[i]. 
+				lds[i] stores the length of the longest Decreasing subsequence starting from arr[i]. 
+				Finally, we need to return the max value of lis[i] + lds[i] – 1 where i is from 0 to n-1.
 DP 47. Number of Longest Increasing Subsequences
 
 Part 7: MCM (Matrix Chain Multiplication) DP | Partition DP
@@ -599,3 +603,67 @@ Largest Rectangle in Histogram
 #####################################################################################
 
 https://github.com/ashishps1/awesome-system-design-resources/blob/main/README.md#system-design-interview-problems
+
+
+#####################################################################################
+
+9 company engineering blog posts that will help you improve at system design & learn Kubernetes:
+
+1. OpenAI: Scaling Kubernetes to 2,500 nodes https://lnkd.in/gxPJUkhZ
+
+2. OpenAI: Scaling Kubernetes to 7,500 nodes https://lnkd.in/dQup2TXr
+
+3. Netflix: Kubernetes And Kernel Panics https://lnkd.in/g23pEvf9
+
+4. Airbnb: A “Krispr” Approach to Kubernetes Infrastructure https://lnkd.in/gSxf8gkh
+
+5. Airbnb: Dynamic Kubernetes Cluster Scaling at Airbnb https://lnkd.in/gN37eXmW
+
+6. Stripe: Railyard: how we rapidly train machine learning models with Kubernetes https://lnkd.in/gJ9ZZcGM
+
+7. Spotify: Designing a Better Kubernetes Experience for Developers https://lnkd.in/gjvbDDTP
+
+8. Palantir: Kubernetes at Palantir https://lnkd.in/gUiGHAKZ
+
+9. Pinterest: PinCompute: A Kubernetes Backed General Purpose Compute Platform https://lnkd.in/gxZ5A5J8
+
+####################################################################################
+
+So far, I have posted 5 articles, with the next one on the way:
+1. 𝐇𝐨𝐰 𝐭𝐨 𝐀𝐧𝐬𝐰𝐞𝐫 𝐚 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰 𝐏𝐫𝐨𝐛𝐥𝐞𝐦: https://lnkd.in/gkhnZU77
+2. 15 𝐓𝐲𝐩𝐞𝐬 𝐨𝐟 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐬 𝐚𝐧𝐝 𝐖𝐡𝐞𝐧 𝐭𝐨 𝐔𝐬𝐞 𝐓𝐡𝐞𝐦: https://lnkd.in/gti8gjpz
+3. 𝐒.𝐎.𝐋.𝐈.𝐃 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐥𝐞𝐬 𝐄𝐱𝐩𝐥𝐚𝐢𝐧𝐞𝐝 𝐖𝐢𝐭𝐡 𝐂𝐨𝐝𝐞: https://lnkd.in/dNZsRxQ6
+4. 𝐓𝐨𝐩 15 𝐓𝐫𝐚𝐝𝐞-𝐎𝐟𝐟𝐬 𝐢𝐧 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧: https://lnkd.in/gnM8QC-z
+5. 𝐀 𝐒𝐡𝐨𝐫𝐭 𝐌𝐚𝐬𝐭𝐞𝐫𝐜𝐥𝐚𝐬𝐬 𝐨𝐧 𝐒𝐜𝐚𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲: https://lnkd.in/gpge_z76
+
+
+######################################################################################
+
+A Good List of Company Engineering Blogs to Learn Real-World System Design:
+
+1) 𝐑𝐞𝐚𝐥 𝐭𝐢𝐦𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐢𝐧𝐠 𝐚𝐭 𝐒𝐥𝐚𝐜𝐤: https://lnkd.in/gqsJ9TpN
+
+2) 𝐇𝐨𝐰 𝐃𝐢𝐬𝐜𝐨𝐫𝐝 𝐬𝐭𝐨𝐫𝐞𝐬 𝐓𝐫𝐢𝐥𝐥𝐢𝐨𝐧𝐬 𝐨𝐟 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬: https://lnkd.in/guKFkNW7
+
+3) 𝐇𝐨𝐰 𝐂𝐚𝐧𝐯𝐚 𝐬𝐜𝐚𝐥𝐞𝐝 𝐌𝐞𝐝𝐢𝐚 𝐮𝐩𝐥𝐨𝐚𝐝𝐬 𝐟𝐫𝐨𝐦 𝐙𝐞𝐫𝐨 𝐭𝐨 50 𝐌𝐢𝐥𝐥𝐢𝐨𝐧 𝐩𝐞𝐫 𝐃𝐚𝐲: https://lnkd.in/g-8-A8Xy
+
+4) 𝐂𝐚𝐩𝐭𝐮𝐫𝐢𝐧𝐠 𝐚 𝐁𝐢𝐥𝐥𝐢𝐨𝐧 𝐄𝐦𝐨𝐣𝐢𝐬 𝐚𝐭 𝐇𝐨𝐭𝐬𝐭𝐚𝐫: https://lnkd.in/gnTY4NCx
+
+5) 𝐇𝐨𝐰 𝐏𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐁𝐮𝐢𝐥𝐭 𝐚 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐔𝐬𝐞𝐫 𝐀𝐜𝐭𝐢𝐨𝐧 𝐂𝐨𝐮𝐧𝐭𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦 𝐟𝐨𝐫 𝐀𝐝𝐬: https://lnkd.in/gSRg368z
+
+6) 𝐇𝐨𝐰 𝐀𝐢𝐫𝐛𝐧𝐛 𝐀𝐯𝐨𝐢𝐝𝐬 𝐃𝐨𝐮𝐛𝐥𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭𝐬: https://lnkd.in/grmvy5Sp
+
+7) 𝐇𝐨𝐰 𝐔𝐛𝐞𝐫 𝐨𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐬 𝐭𝐡𝐞 𝐓𝐢𝐦𝐢𝐧𝐠 𝐨𝐟 𝐏𝐮𝐬𝐡 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐮𝐬𝐢𝐧𝐠 𝐌𝐋: https://lnkd.in/gAsgiHY8
+
+8) 𝐇𝐨𝐰 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐮𝐬𝐞𝐬 𝐀𝐈 𝐭𝐨 𝐩𝐨𝐰𝐞𝐫 𝐢𝐭’𝐬 𝐌𝐚𝐫𝐤𝐞𝐭𝐩𝐥𝐚𝐜𝐞: https://lnkd.in/g7AfdqFf
+
+9) 𝐓𝐡𝐞 𝐟𝐢𝐫𝐬𝐭 10 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐒𝐭𝐫𝐢𝐩𝐞’𝐬 𝐏𝐚𝐲𝐦𝐞𝐧𝐭𝐬 𝐀𝐏𝐈𝐬: https://lnkd.in/g9RYpbyr
+
+10) 𝐁𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐅𝐚𝐬𝐭𝐞𝐫 𝐈𝐧𝐝𝐞𝐱𝐢𝐧𝐠 𝐚𝐭 𝐃𝐨𝐨𝐫𝐃𝐚𝐬𝐡: https://lnkd.in/gk2ezN6v
+
+
+####################################################################################
+
+Important microsoft questions -
+
+https://www.linkedin.com/feed/update/urn:li:activity:7190974535280541696/
