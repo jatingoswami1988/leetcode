@@ -10,8 +10,8 @@ public class LongestCommonSubstring {
 		int n = X.length();
 		int m = Y.length();
 
-		System.out.println(lcsRecusion(X, Y, n, m));
-		//System.out.println(lcsTabulation(X.toCharArray(), Y.toCharArray(), m, n));
+		//System.out.println(lcsRecusion(X, Y, n, m));
+		System.out.println(lcsTabulation(X.toCharArray(), Y.toCharArray(), m, n));
 
 	}
 
